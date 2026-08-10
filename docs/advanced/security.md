@@ -1,29 +1,47 @@
 ---
 title: 隐私、授权与安全边界
-description: 在使用 WorkBuddy 处理文件、连接工具和发布结果前建立安全检查。
+description: 用“客户反馈整理”案例，在上传、调用、写入和发布前建立可执行的安全检查。
 sourceStatus: template
 permalink: /advanced/security/
 verifiedAt: 2026-08-10
 officialLinks:
-  - https://copilot.tencent.com/term
+  - https://copilot.tencent.com/work/
+  - https://cloud.tencent.com/document/product/1831/134393
 ---
 
-<div class="evidence-card"><strong>通用方法</strong><span>本页是风险检查清单，不是法律意见；服务条款和组织政策优先。</span></div>
+<div class="evidence-card"><strong>通用方法</strong><span>本页是风险检查清单，不是法律意见；组织政策、服务条款和当前客户端提示优先。</span></div>
 
 # 隐私、授权与安全边界
 
-## 上传前
+用 AI 处理工作材料时，安全不是最后加一个“请注意隐私”，而是把每一个高风险动作变成可检查的暂停点。
 
-确认文件是否包含个人信息、商业秘密、合同约束或第三方数据；能脱敏就先脱敏。
+<figure class="wb-figure"><img src="/images/workbuddy/permission-flow.svg" alt="WorkBuddy 隐私与授权检查示意图，标注用户、WorkBuddy、数据与工具之间的确认边界"><figcaption><strong>确认边界：</strong>上传、读取、写入、发送、共享和付费都要分别判断，不要一次性授权一个模糊的“帮我处理”。</figcaption></figure>
 
-## 连接前
+## 案例：整理已脱敏客户反馈
 
-区分只读、写入、发送和付费动作，使用最小权限，先用测试数据验证可回滚性。
+| 阶段 | 要做什么 | 必须暂停的情况 |
+| --- | --- | --- |
+| 上传前 | 删除姓名、电话、订单号，保留匿名编号 | 文件包含无法脱敏的秘密 |
+| 读取时 | 只读取反馈文本和日期列 | 工具要求访问整个目录 |
+| 分析时 | 主题、情绪、问题严重性 | 结果要推断个人身份 |
+| 写入时 | 保存到新文件，不覆盖原始文件 | 默认写入共享空间 |
+| 发布时 | 人工检查收件人和附件 | 需要自动发送外部消息 |
 
-## 发布前
+## 四问模板
 
-复核事实、引用、数字、收件人和附件；AI 生成的内容不要绕过人工审批直接对外发送。
+```text
+在开始前，请回答：
+1. 你将读取哪些文件和字段？
+2. 哪些内容会被写入或传给外部服务？
+3. 哪一步需要我确认？
+4. 失败后能否撤销或恢复？
+如果无法回答任一问题，请停止执行。
+```
 
-<div class="wb-callout"><strong>出现不确定性时：</strong>暂停执行，保留上下文，询问组织管理员或官方支持。</div>
+## 发生风险时怎么办
 
-<div class="source-note">参考：<a href="https://copilot.tencent.com/term">腾讯云代码助手服务协议</a>及 WorkBuddy 官方产品页。WorkBuddy 的具体条款以官方当前页面为准。</div>
+停止任务，保存版本和错误提示；撤销不必要的授权；不要继续上传更多材料“试试看”；向组织管理员或官方支持咨询。反馈中只放最小复现信息，先脱敏。
+
+<div class="wb-callout"><strong>完成标准：</strong>你能画出一条从输入到交付的数据流，并指出每一个需要人类批准的节点。</div>
+
+<div class="source-note">参考：<a href="https://cloud.tencent.com/document/product/1831/134393">腾讯云 WorkBuddy 文档</a>及<a href="https://copilot.tencent.com/work/">WorkBuddy 官方产品页</a>。本页不构成法律、合规或安全审批。</div>

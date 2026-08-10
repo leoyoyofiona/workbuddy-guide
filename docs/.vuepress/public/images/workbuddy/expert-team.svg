@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">WorkBuddy 专家团协作示意图</title>
+  <desc id="desc">总负责人将研究、数据和编辑任务并行分配，最后汇总并由用户验收。</desc>
+  <rect width="1200" height="430" rx="24" fill="#f7faff"/>
+  <text x="56" y="58" font-family="Arial,'PingFang SC',sans-serif" font-size="24" font-weight="700" fill="#14213d">多专家不是堆角色，而是分工后汇总（教学示意图）</text>
+  <g font-family="Arial,'PingFang SC',sans-serif" text-anchor="middle">
+    <rect x="460" y="92" width="280" height="86" rx="18" fill="#1769ff"/><text x="600" y="128" font-size="21" font-weight="700" fill="#fff">总任务 / 总负责人</text><text x="600" y="154" font-size="14" fill="#eaf2ff">目标、边界、统一交付格式</text>
+    <rect x="100" y="250" width="240" height="98" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="220" y="287" font-size="20" font-weight="700" fill="#1769ff">研究角色</text><text x="220" y="315" font-size="14" fill="#466181">来源、日期、证据表</text>
+    <rect x="480" y="250" width="240" height="98" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="600" y="287" font-size="20" font-weight="700" fill="#1769ff">数据角色</text><text x="600" y="315" font-size="14" fill="#466181">口径、异常、可复核发现</text>
+    <rect x="860" y="250" width="240" height="98" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="980" y="287" font-size="20" font-weight="700" fill="#1769ff">编辑角色</text><text x="980" y="315" font-size="14" fill="#466181">结构、语气、可读性</text>
+    <rect x="460" y="370" width="280" height="42" rx="12" fill="#e8f1ff"/><text x="600" y="397" font-size="15" fill="#244572">汇总 → 人工核验 → 交付</text>
+  </g>
+  <g stroke="#1769ff" stroke-width="3" fill="none"><path d="M520 178L250 244" marker-end="url(#arrow)"/><path d="M600 178V244" marker-end="url(#arrow)"/><path d="M680 178L950 244" marker-end="url(#arrow)"/><path d="M220 348L520 370" stroke-dasharray="8 8"/><path d="M600 348V370" stroke-dasharray="8 8"/><path d="M980 348L680 370" stroke-dasharray="8 8"/></g>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#1769ff"/></marker></defs>
+</svg>

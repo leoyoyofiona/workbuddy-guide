@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">WorkBuddy 数据分析三轮检查示意图</title>
+  <desc id="desc">展示数据质量、发现和行动建议三轮分析流程。</desc>
+  <rect width="1200" height="430" rx="24" fill="#f7faff"/>
+  <text x="56" y="58" font-family="Arial,'PingFang SC',sans-serif" font-size="24" font-weight="700" fill="#14213d">数据分析先查口径，再谈结论（教学示意图）</text>
+  <g font-family="Arial,'PingFang SC',sans-serif" text-anchor="middle">
+    <rect x="72" y="122" width="300" height="188" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="222" y="162" font-size="21" font-weight="700" fill="#1769ff">1. 数据质量</text><text x="222" y="198" font-size="15" fill="#466181">字段、行数、时间范围</text><text x="222" y="224" font-size="15" fill="#466181">缺失、重复、异常值</text><text x="222" y="270" font-size="14" fill="#b05b00">没有通过就停止解读</text>
+    <rect x="450" y="122" width="300" height="188" rx="18" fill="#eaf2ff" stroke="#8fb5ff" stroke-width="3"/><text x="600" y="162" font-size="21" font-weight="700" fill="#1769ff">2. 可复核发现</text><text x="600" y="198" font-size="15" fill="#466181">每个发现附字段依据</text><text x="600" y="224" font-size="15" fill="#466181">区分相关与因果</text><text x="600" y="270" font-size="14" fill="#244572">先列事实，再列假设</text>
+    <rect x="828" y="122" width="300" height="188" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="978" y="162" font-size="21" font-weight="700" fill="#1769ff">3. 行动建议</text><text x="978" y="198" font-size="15" fill="#466181">负责人、期限、验证指标</text><text x="978" y="224" font-size="15" fill="#466181">标注需要外部验证的假设</text><text x="978" y="270" font-size="14" fill="#b05b00">建议不是数据结论</text>
+  </g>
+  <g stroke="#1769ff" stroke-width="3" fill="none"><path d="M372 216H442" marker-end="url(#arrow)"/><path d="M750 216H820" marker-end="url(#arrow)"/></g>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#1769ff"/></marker></defs>
+</svg>

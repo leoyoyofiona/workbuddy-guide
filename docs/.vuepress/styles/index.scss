@@ -13,7 +13,7 @@
   --wb-container: 1180px;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body { background: var(--vp-c-bg); }
 .vp-page { max-width: var(--wb-container); }
 .navbar { border-bottom: 1px solid var(--vp-c-divider); box-shadow: 0 8px 28px rgba(27, 70, 150, .04); }
@@ -24,10 +24,15 @@ body { background: var(--vp-c-bg); }
 .sidebar-item.is-active > .sidebar-item-children, .sidebar-item.is-active > .sidebar-item-link { color: var(--vp-c-brand-1); }
 .wb-home { max-width: var(--wb-container); margin: 0 auto; padding: 42px 28px 80px; }
 .vp-page:has(.wb-home) .vp-page-title { display: none; }
-.vp-page:has(.wb-home) { max-width: none; }
-.vp-page:has(.wb-home) .vp-content { padding-top: 0; }
+.vp-page:has(.wb-home) { max-width: none; padding-right: 0 !important; padding-left: 0 !important; padding-inline-end: 0 !important; }
+.vp-page:has(.wb-home) .vp-content,
+.vp-page:has(.wb-home) #markdown-content,
+.vp-page:has(.wb-home) div:has(> #markdown-content) { width: 100%; max-width: none; margin: 0; padding-top: 0; padding-inline: 0; }
+.vp-page:has(.wb-home) .wb-home { max-width: var(--wb-container); margin: 0 auto; padding: 42px 28px 80px; }
 .wb-hero { display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px; align-items: center; min-height: 420px; padding: 50px 0 56px; }
-.wb-hero h1 { margin: 0; max-width: 680px; font-size: clamp(42px, 6vw, 76px); line-height: 1.03; letter-spacing: -.06em; color: #101d38; }
+.wb-hero h1 { margin: 0; max-width: 700px; font-size: clamp(42px, 5.6vw, 72px); line-height: 1.02; letter-spacing: -.055em; color: #101d38; text-wrap: balance; }
+.wb-title-line { display: block; white-space: nowrap; }
+.wb-title-accent { color: #1769ff; }
 .wb-hero p { max-width: 620px; margin: 24px 0 0; font-size: 19px; line-height: 1.75; color: var(--vp-c-text-2); }
 .wb-hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 .wb-button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 12px; font-weight: 700; text-decoration: none !important; transition: transform .2s ease, box-shadow .2s ease; }
@@ -52,7 +57,7 @@ body { background: var(--vp-c-bg); }
 .wb-step { position: relative; padding: 18px; border-radius: 14px; background: rgba(255,255,255,.8); }
 .wb-step strong { display: block; color: #1769ff; font-size: 12px; }
 .wb-step span { display: block; margin-top: 7px; font-weight: 700; color: #1b2e4d; }
-.evidence-card { display: flex; gap: 12px; align-items: start; margin: 18px 0 26px; padding: 14px 16px; border: 1px solid #cfe0ff; border-radius: 12px; background: #f5f9ff; color: #466181; font-size: 14px; line-height: 1.6; }
+.evidence-card { display: flex; gap: 12px; align-items: flex-start; margin: 18px 0 26px; padding: 14px 16px; border: 1px solid #cfe0ff; border-radius: 12px; background: #f5f9ff; color: #466181; font-size: 14px; line-height: 1.6; }
 .evidence-card strong { color: #1769ff; white-space: nowrap; }
 .source-note { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--vp-c-divider); color: #6a7890; font-size: 13px; }
 .source-note a { color: #1769ff; }
@@ -61,5 +66,18 @@ body { background: var(--vp-c-bg); }
 .wb-table th, .wb-table td { padding: 11px 12px; border-bottom: 1px solid var(--vp-c-divider); text-align: left; vertical-align: top; }
 .wb-table th { color: #244572; background: #f7faff; }
 .wb-disclaimer { padding: 18px 20px; border: 1px solid #d7e5ff; border-radius: 14px; background: #f7faff; color: #526985; font-size: 13px; line-height: 1.7; }
-@media (max-width: 900px) { .wb-hero { grid-template-columns: 1fr; gap: 12px; padding-top: 28px; } .wb-orbit { min-height: 270px; } .wb-orbit::before { width: 210px; height: 210px; } .wb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-path { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 600px) { .wb-home { padding: 22px 18px 58px; } .wb-hero h1 { font-size: 44px; } .wb-hero p { font-size: 16px; } .wb-grid { grid-template-columns: 1fr; } .wb-section-heading { display: block; } .wb-section-heading p { margin-top: 8px; } .wb-path { grid-template-columns: 1fr; } .navbar .site-name::after { display: none; } }
+.wb-lesson { margin: 22px 0; padding: 20px 22px; border: 1px solid #dfe9f8; border-radius: 16px; background: linear-gradient(135deg, #fbfdff, #f4f8ff); }
+.wb-lesson h3 { margin: 0 0 10px; color: #18345c; font-size: 18px; }
+.wb-lesson p:last-child, .wb-lesson ul:last-child, .wb-lesson ol:last-child { margin-bottom: 0; }
+.wb-checklist { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 18px; margin: 16px 0; padding: 18px 20px 18px 38px; border: 1px solid #e1eaf7; border-radius: 14px; background: #fff; }
+.wb-checklist li { padding-left: 2px; }
+.wb-example { margin: 18px 0; padding: 16px 18px; border: 1px solid #d6e5ff; border-radius: 14px; background: #fff; box-shadow: 0 8px 24px rgba(35, 90, 170, .06); }
+.wb-example strong { color: #1769ff; }
+.wb-figure { margin: 26px 0; padding: 16px; border: 1px solid #dbe7f7; border-radius: 18px; background: #fff; box-shadow: 0 12px 30px rgba(35, 90, 170, .07); }
+.wb-figure img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.wb-figure figcaption { margin: 12px 4px 0; color: #667994; font-size: 13px; line-height: 1.65; }
+.wb-figure figcaption strong { color: #1769ff; }
+.wb-two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 1100px) { .wb-hero { gap: 28px; } .wb-hero h1 { font-size: clamp(40px, 5vw, 64px); } }
+@media (max-width: 900px) { .wb-hero { grid-template-columns: 1fr; gap: 12px; padding-top: 28px; } .wb-hero h1 { max-width: none; font-size: clamp(40px, 8vw, 64px); } .wb-orbit { min-height: 270px; } .wb-orbit::before { width: 210px; height: 210px; } .wb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-path { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .wb-home { padding: 22px 18px 58px; } .wb-hero h1 { font-size: clamp(38px, 11vw, 52px); letter-spacing: -.06em; } .wb-title-line { white-space: normal; } .wb-hero p { font-size: 16px; } .wb-grid, .wb-two-col { grid-template-columns: 1fr; } .wb-section-heading { display: block; } .wb-section-heading p { margin-top: 8px; } .wb-path { grid-template-columns: 1fr; } .wb-checklist { grid-template-columns: 1fr; } .navbar .site-name::after { display: none; } }

@@ -2,32 +2,32 @@ lastReviewed: 2026-08-10
 officialWorkBuddySource: https://copilot.tencent.com/work/
 entries:
   - { route: '/', status: official, source: https://copilot.tencent.com/work/, note: 产品定位与办公场景 }
-  - { route: '/guide/', status: official, source: https://copilot.tencent.com/work/, note: 学习路径按官方公开能力组织 }
-  - { route: '/start/install', status: official, source: https://copilot.tencent.com/work/, note: 下载平台以官方页面为准 }
+  - { route: '/guide/', status: official, source: https://copilot.tencent.com/work/, note: 学习路径按官方公开能力组织，案例与验收为独立编排 }
+  - { route: '/start/install', status: official, source: https://copilot.tencent.com/work/, note: 下载平台以官方页面为准，平台差异需按当前页面复核 }
   - { route: '/start/first-task', status: tested, version: '5.3.11', source: https://copilot.tencent.com/work/, note: 本机实测记录 }
   - { route: '/start/chat', status: tested, version: '5.3.11', source: https://copilot.tencent.com/work/, note: 本机实测记录 }
-  - { route: '/start/files', status: official, source: https://copilot.tencent.com/work/, note: 文件与产物能力以官方公开描述为准 }
-  - { route: '/start/experts', status: official, source: https://copilot.tencent.com/work/, note: 多专家协作 }
-  - { route: '/start/skills', status: official, source: https://copilot.tencent.com/work/, note: MCP 与自定义 Skills }
-  - { route: '/start/outputs', status: official, source: https://copilot.tencent.com/agents, note: 产物面板公开示例 }
+  - { route: '/start/files', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 文件与产物能力以官方公开描述为准，授权检查为独立教程 }
+  - { route: '/start/experts', status: official, source: https://cloud.tencent.com/document/product/1831/134393, note: 专家/专家团概念与权限边界 }
+  - { route: '/start/skills', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: Skills/SkillHub 公开能力，测试法为独立教程 }
+  - { route: '/start/outputs', status: official, source: https://copilot.tencent.com/agents, note: 产物与办公交付场景公开描述 }
   - { route: '/start/faq', status: template, source: https://copilot.tencent.com/work/, note: 常见问题提示，不替代官方客服 }
   - { route: '/advanced/prompting', status: template, source: https://copilot.tencent.com/work/, note: 通用指令方法 }
   - { route: '/advanced/planning', status: template, source: https://copilot.tencent.com/work/, note: 通用任务拆解方法 }
-  - { route: '/advanced/experts', status: official, source: https://copilot.tencent.com/work/, note: 多专家并行协作 }
-  - { route: '/advanced/mcp', status: official, source: https://copilot.tencent.com/work/, note: MCP 生态公开描述 }
-  - { route: '/advanced/skills', status: official, source: https://copilot.tencent.com/work/, note: 自定义 Skills 公开描述 }
+  - { route: '/advanced/experts', status: official, source: https://cloud.tencent.com/document/product/1831/134393, note: 专家/专家团角色协作，案例编排为独立方法 }
+  - { route: '/advanced/mcp', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: MCP/连接器与授权边界公开描述 }
+  - { route: '/advanced/skills', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: Skills 能力公开描述，测试矩阵为独立方法 }
   - { route: '/advanced/workflows', status: template, source: https://copilot.tencent.com/work/, note: 通用工作流设计 }
-  - { route: '/advanced/files-data', status: official, source: https://copilot.tencent.com/work/, note: 数据洞察公开场景 }
+  - { route: '/advanced/files-data', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 多模态文件与数据分析公开场景 }
   - { route: '/advanced/security', status: template, source: https://copilot.tencent.com/term, note: 安全检查清单，不构成法律意见 }
   - { route: '/advanced/troubleshooting', status: tested, version: '5.3.11', source: https://copilot.tencent.com/work/, note: 本机实测排障记录 }
-  - { route: '/recipes/research', status: official, source: https://copilot.tencent.com/work/, note: 外部信息调研场景 }
-  - { route: '/recipes/ppt', status: official, source: https://copilot.tencent.com/work/, note: 调研与 PPT 产出场景 }
-  - { route: '/recipes/data-analysis', status: official, source: https://copilot.tencent.com/work/, note: 业务数据洞察场景 }
-  - { route: '/recipes/content', status: official, source: https://copilot.tencent.com/work/, note: 内容创作场景 }
+  - { route: '/recipes/research', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 外部信息调研场景，证据表为独立方法 }
+  - { route: '/recipes/ppt', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 调研与 PPT 产出场景，页级案例为独立方法 }
+  - { route: '/recipes/data-analysis', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 业务数据洞察场景，不发布虚构效果数据 }
+  - { route: '/recipes/content', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 内容创作与多模态场景，文案案例为独立方法 }
   - { route: '/recipes/meeting', status: template, source: https://copilot.tencent.com/work/, note: 通用会议整理模板 }
   - { route: '/recipes/code', status: template, source: https://copilot.tencent.com/docs/ide/Best-practice/best-practice, note: 明确标注为 CodeBuddy 相关通用开发方法 }
-  - { route: '/recipes/feedback', status: official, source: https://copilot.tencent.com/work/, note: 用户反馈与舆情分析场景 }
+  - { route: '/recipes/feedback', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 用户反馈与情感归类场景，案例不代表真实样本 }
   - { route: '/manual/limits', status: template, source: https://copilot.tencent.com/work/, note: 不发布未经核验的价格或额度 }
-  - { route: '/manual/updates', status: official, source: https://copilot.tencent.com/work/, note: 维护核验日期与官方链接 }
+  - { route: '/manual/updates', status: official, source: https://www.workbuddy.cn/docs/workbuddy/Changelog, note: 维护版本、核验日期、回归案例和官方链接 }
   - { route: '/community/contribute', status: template, source: https://copilot.tencent.com/work/, note: 独立社区贡献流程 }
   - { route: '/community/feedback', status: template, source: https://copilot.tencent.com/work/, note: 反馈入口说明 }

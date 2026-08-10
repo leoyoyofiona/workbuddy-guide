@@ -27,6 +27,10 @@ pnpm build
 
 WorkBuddy 官方信息请以[官方产品页](https://copilot.tencent.com/work/)为准。CodeBuddy IDE 内容只在页面明确标注后引用。
 
+## 案例与可视化教学
+
+引导页按“案例目标 → 输入准备 → 指令/步骤 → 中间产物 → 验收 → 失败排查 → 复用”组织，并优先使用表格、流程图和授权边界图。`docs/.vuepress/public/images/workbuddy/` 中的图片是本项目制作的非官方教学示意图，不冒充腾讯产品截图；真实界面和版本差异请回到官方资料核验。
+
 ## 部署
 
 Render Blueprint 配置位于 [`render.yaml`](render.yaml)，静态发布目录为 `docs/.vuepress/dist`。

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">WorkBuddy 任务闭环示意图</title>
+  <desc id="desc">从目标、输入、计划、执行到验收和复用的六步流程。</desc>
+  <rect width="1200" height="360" rx="24" fill="#f7faff"/>
+  <text x="56" y="56" font-family="Arial,'PingFang SC',sans-serif" font-size="24" font-weight="700" fill="#14213d">把一次任务变成可复用闭环（教学示意图）</text>
+  <g font-family="Arial,'PingFang SC',sans-serif" text-anchor="middle">
+    <rect x="46" y="124" width="154" height="112" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="123" y="158" font-size="18" font-weight="700" fill="#1769ff">01 目标</text><text x="123" y="190" font-size="14" fill="#466181">受众、范围</text><text x="123" y="212" font-size="14" fill="#466181">完成标准</text>
+    <rect x="238" y="124" width="154" height="112" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="315" y="158" font-size="18" font-weight="700" fill="#1769ff">02 输入</text><text x="315" y="190" font-size="14" fill="#466181">文件、链接</text><text x="315" y="212" font-size="14" fill="#466181">权限、版本</text>
+    <rect x="430" y="124" width="154" height="112" rx="18" fill="#eaf2ff" stroke="#8fb5ff" stroke-width="3"/><text x="507" y="158" font-size="18" font-weight="700" fill="#1769ff">03 计划</text><text x="507" y="190" font-size="14" fill="#466181">步骤、缺口</text><text x="507" y="212" font-size="14" fill="#466181">暂停点</text>
+    <rect x="622" y="124" width="154" height="112" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="699" y="158" font-size="18" font-weight="700" fill="#1769ff">04 执行</text><text x="699" y="190" font-size="14" fill="#466181">中间产物</text><text x="699" y="212" font-size="14" fill="#466181">错误与重试</text>
+    <rect x="814" y="124" width="154" height="112" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="891" y="158" font-size="18" font-weight="700" fill="#1769ff">05 验收</text><text x="891" y="190" font-size="14" fill="#466181">事实、格式</text><text x="891" y="212" font-size="14" fill="#466181">权限、发布</text>
+    <rect x="1006" y="124" width="154" height="112" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="1083" y="158" font-size="18" font-weight="700" fill="#1769ff">06 复用</text><text x="1083" y="190" font-size="14" fill="#466181">模板、Skill</text><text x="1083" y="212" font-size="14" fill="#466181">复盘记录</text>
+  </g>
+  <g stroke="#1769ff" stroke-width="3" fill="none"><path d="M200 180H232"/><path d="M392 180H424"/><path d="M584 180H616"/><path d="M776 180H808"/><path d="M968 180H1000"/><path d="M1080 246 C1080 300 120 300 120 246"/></g>
+</svg>

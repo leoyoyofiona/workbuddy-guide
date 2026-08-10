@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">WorkBuddy 文件与连接器授权检查示意图</title>
+  <desc id="desc">展示用户、WorkBuddy、文件或外部服务之间的授权和人工确认边界。</desc>
+  <rect width="1200" height="420" rx="24" fill="#f7faff"/>
+  <text x="56" y="60" font-family="Arial,'PingFang SC',sans-serif" font-size="24" font-weight="700" fill="#14213d">先确认数据流，再让任务继续（教学示意图）</text>
+  <g font-family="Arial,'PingFang SC',sans-serif" text-anchor="middle">
+    <rect x="72" y="142" width="220" height="132" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="182" y="182" font-size="21" font-weight="700" fill="#1769ff">用户</text><text x="182" y="216" font-size="15" fill="#466181">目标、文件、指令</text><text x="182" y="242" font-size="15" fill="#466181">最终人工确认</text>
+    <rect x="490" y="112" width="220" height="192" rx="18" fill="#eaf2ff" stroke="#8fb5ff" stroke-width="3"/><text x="600" y="158" font-size="21" font-weight="700" fill="#1769ff">WorkBuddy</text><text x="600" y="192" font-size="15" fill="#466181">理解与规划</text><text x="600" y="218" font-size="15" fill="#466181">调用 Skill / 专家</text><text x="600" y="244" font-size="15" fill="#466181">生成中间产物</text><text x="600" y="270" font-size="15" fill="#466181">请求授权或确认</text>
+    <rect x="908" y="142" width="220" height="132" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="1018" y="182" font-size="21" font-weight="700" fill="#1769ff">数据 / 工具</text><text x="1018" y="216" font-size="15" fill="#466181">本地文件或连接器</text><text x="1018" y="242" font-size="15" fill="#466181">只读 / 写入 / 发送</text>
+  </g>
+  <g stroke="#1769ff" stroke-width="3" fill="none"><path d="M292 190H480" marker-end="url(#arrow)"/><path d="M710 190H898" marker-end="url(#arrow)"/><path d="M898 246H710" stroke-dasharray="8 8" marker-end="url(#arrow)"/><path d="M480 246H292" stroke-dasharray="8 8" marker-end="url(#arrow)"/></g>
+  <text x="380" y="174" font-family="Arial,'PingFang SC',sans-serif" font-size="14" fill="#466181">提供输入</text><text x="810" y="174" font-family="Arial,'PingFang SC',sans-serif" font-size="14" fill="#466181">最小权限调用</text><text x="808" y="286" font-family="Arial,'PingFang SC',sans-serif" font-size="14" fill="#b05b00">结果 / 权限状态</text><text x="376" y="286" font-family="Arial,'PingFang SC',sans-serif" font-size="14" fill="#b05b00">人工批准后继续</text>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#1769ff"/></marker></defs>
+</svg>
