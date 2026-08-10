@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: workbuddy-guide
+    runtime: static
+    buildCommand: pnpm install --frozen-lockfile && pnpm build
+    staticPublishPath: .vuepress/dist
+    pullRequestPreviewsEnabled: false
