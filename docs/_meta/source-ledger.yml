@@ -4,23 +4,23 @@ entries:
   - { route: '/', status: official, source: https://copilot.tencent.com/work/, note: 产品定位与办公场景 }
   - { route: '/guide/', status: official, source: https://copilot.tencent.com/work/, note: 学习路径按官方公开能力组织，案例与验收为独立编排 }
   - { route: '/start/install', status: official, source: https://copilot.tencent.com/work/, note: 下载平台以官方页面为准，平台差异需按当前页面复核 }
-  - { route: '/start/first-task', status: tested, version: '5.3.11', source: https://copilot.tencent.com/work/, note: 本机实测记录 }
-  - { route: '/start/chat', status: tested, version: '5.3.11', source: https://copilot.tencent.com/work/, note: 本机实测记录 }
-  - { route: '/start/files', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 文件与产物能力以官方公开描述为准，授权检查为独立教程 }
-  - { route: '/start/experts', status: official, source: https://cloud.tencent.com/document/product/1831/134393, note: 专家/专家团概念与权限边界 }
+  - { route: '/start/first-task', status: tested, version: '5.3.11', source: https://www.workbuddy.cn/docs/workbuddy/Task-Management, note: 本机实测记录；桌面截图为官方公开 v5.1.1，标注为独立叠加 }
+  - { route: '/start/chat', status: tested, version: '5.3.11', source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: 本机实测记录；桌面截图为官方公开 v5.1.1，标注为独立叠加 }
+  - { route: '/start/files', status: official, source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: 文件与产物能力以官方公开描述为准；桌面截图为官方公开 v5.1.1，授权检查为独立教程 }
+  - { route: '/start/experts', status: official, source: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center, note: 专家/专家团概念与权限边界；桌面截图为官方公开 v5.1.4，标注为独立叠加 }
   - { route: '/start/skills', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: Skills/SkillHub 公开能力，测试法为独立教程 }
   - { route: '/start/outputs', status: official, source: https://copilot.tencent.com/agents, note: 产物与办公交付场景公开描述 }
   - { route: '/start/faq', status: template, source: https://copilot.tencent.com/work/, note: 常见问题提示，不替代官方客服 }
   - { route: '/advanced/prompting', status: template, source: https://copilot.tencent.com/work/, note: 通用指令方法 }
   - { route: '/advanced/planning', status: template, source: https://copilot.tencent.com/work/, note: 通用任务拆解方法 }
   - { route: '/advanced/experts', status: official, source: https://cloud.tencent.com/document/product/1831/134393, note: 专家/专家团角色协作，案例编排为独立方法 }
-  - { route: '/advanced/mcp', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: MCP/连接器与授权边界公开描述 }
-  - { route: '/advanced/skills', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: Skills 能力公开描述，测试矩阵为独立方法 }
+  - { route: '/advanced/mcp', status: official, source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: MCP/连接器与授权边界公开描述；截图仅用于定位技能、权限和产物检查点 }
+  - { route: '/advanced/skills', status: official, source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: Skills 能力公开描述；桌面截图为官方公开 v5.1.1，测试矩阵为独立方法 }
   - { route: '/advanced/workflows', status: template, source: https://copilot.tencent.com/work/, note: 通用工作流设计 }
   - { route: '/advanced/files-data', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 多模态文件与数据分析公开场景 }
   - { route: '/advanced/security', status: template, source: https://copilot.tencent.com/term, note: 安全检查清单，不构成法律意见 }
   - { route: '/advanced/troubleshooting', status: tested, version: '5.3.11', source: https://copilot.tencent.com/work/, note: 本机实测排障记录 }
-  - { route: '/recipes/research', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 外部信息调研场景，证据表为独立方法 }
+  - { route: '/recipes/research', status: official, source: https://www.workbuddy.cn/docs/workbuddy/Task-Management, note: 外部信息调研场景；桌面截图为官方公开 v5.1.1，证据表为独立方法 }
   - { route: '/recipes/ppt', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 调研与 PPT 产出场景，页级案例为独立方法 }
   - { route: '/recipes/data-analysis', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 业务数据洞察场景，不发布虚构效果数据 }
   - { route: '/recipes/content', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 内容创作与多模态场景，文案案例为独立方法 }

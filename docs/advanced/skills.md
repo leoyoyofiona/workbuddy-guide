@@ -7,9 +7,24 @@ verifiedAt: 2026-08-10
 officialLinks:
   - https://copilot.tencent.com/work/
   - https://cloud.tencent.com.cn/product/workbuddy
+  - https://www.workbuddy.cn/docs/workbuddy/Quickstart
 ---
 
 <div class="evidence-card"><strong>官方资料</strong><span>官方资料公开支持 Skills/SkillHub 能力扩展；本页的设计检查清单和测试案例属于通用方法。</span></div>
+
+## 桌面端逐步操作：从“技能”入口开始测试
+
+<figure class="wb-figure wb-official-figure"><img src="/images/workbuddy/official/quickstart-v5.1.1-annotated.png" alt="WorkBuddy v5.1.1 官方公开桌面截图，标注技能入口、任务输入区和默认权限"><figcaption><strong>官方公开截图 + 教学标注：</strong>来源为 <a href="https://www.workbuddy.cn/docs/workbuddy/Quickstart">WorkBuddy Quickstart</a>；截图版本 v5.1.1。图中 ③和④用于定位输入区与技能入口，技能清单和参数仍应以当前客户端显示为准。</figcaption></figure>
+
+| 步骤 | 看图位置 | 动作 | 验证方式 |
+| --- | --- | --- | --- |
+| 1 | ③ | 先用普通指令写清输入、输出和停止条件。 | 不调用技能也能复述任务。 |
+| 2 | ④ | 点击“技能”，只选择与当前任务直接相关的一项。 | 读懂技能说明、所需输入和权限。 |
+| 3 | ③ | 用一份 5—10 行的脱敏样例试跑。 | 输出字段、顺序和证据符合预期。 |
+| 4 | ⑤ | 在结果区检查是否生成了额外文件或触发外部动作。 | 没有未授权的写入、发送或共享。 |
+| 5 | — | 把失败样例加入测试矩阵，再决定是否复用。 | 正常、边界、缺失三类样例都可解释。 |
+
+<div class="wb-screen-note"><strong>版本边界：</strong>公开截图只证明“技能入口和交互位置曾在该版本出现”，不证明当前版本拥有同名技能、相同参数或相同额度。</div>
 
 # 设计可复用 Skill
 

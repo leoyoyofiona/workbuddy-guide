@@ -7,6 +7,8 @@ verifiedAt: 2026-08-10
 testedVersion: 5.3.11
 officialLinks:
   - https://copilot.tencent.com/work/
+  - https://www.workbuddy.cn/docs/workbuddy/Quickstart
+  - https://www.workbuddy.cn/docs/workbuddy/Task-Management
 ---
 
 <div class="evidence-card"><strong>本机实测 · 5.3.11</strong><span>以下任务在 WorkBuddy 5.3.11 环境用于验证基本闭环；界面名称和执行过程可能随版本调整。</span></div>
@@ -16,6 +18,36 @@ officialLinks:
 第一个任务不要选“写一份完整市场报告”。选择一个输入明确、结果容易检查、失败成本低的任务：把会议记录整理成三列表格。你要练的是如何交代任务，而不是测试模型会不会猜。
 
 <figure class="wb-figure"><img src="/images/workbuddy/plan-loop.svg" alt="WorkBuddy 任务闭环示意图，从目标、输入、计划、执行到验收和复用"><figcaption><strong>案例地图：</strong>本页的会议记录练习对应闭环中的“目标—输入—计划—执行—验收—复用”，每一步都要留下可检查的证据。</figcaption></figure>
+
+## 桌面端逐步操作：从空白页到第一个交付
+
+<figure class="wb-figure wb-official-figure"><img src="/images/workbuddy/official/task-management-v5.1.1-annotated.png" alt="WorkBuddy v5.1.1 任务管理官方公开桌面截图，带六个编号标注"><figcaption><strong>官方公开截图 + 教学标注：</strong>来源为 <a href="https://www.workbuddy.cn/docs/workbuddy/Task-Management">WorkBuddy Task Management</a>；截图版本 v5.1.1。案例卡片和工作空间是截图中的公开界面，红框、箭头和文字为本指南添加。</figcaption></figure>
+
+| 操作 | 对应编号 | 本案例的具体动作 | 完成信号 |
+| --- | --- | --- | --- |
+| 1. 新建任务 | ① | 点击“新建任务”，命名为“周会纪要转行动清单”。 | 左侧任务列表出现新任务。 |
+| 2. 选择上下文 | ②③ | 若已有团队空间，选择对应空间；没有就先留在默认上下文。 | 任务和材料属于同一工作区。 |
+| 3. 选择模式 | ④ | 这是文档整理，保留“日常办公”，不要误选代码或设计。 | 输入框上方模式与任务一致。 |
+| 4. 写清输入 | ⑤ | 粘贴脱敏会议记录，说明四列格式和“无依据就待确认”。 | WorkBuddy 能复述目标和缺口。 |
+| 5. 借鉴模板 | ⑥ | 第一次练习可打开“工作总结日报”类模板，替换成自己的字段。 | 产物结构稳定，仍保留原文证据。 |
+
+### 案例操作记录（建议照抄）
+
+```text
+请把下面的会议记录整理成行动清单，但先不要生成最终表格。
+第一轮只输出：目标复述、读取到的事实、缺少的负责人/日期、执行计划。
+我确认后，输出 Markdown 表格：事项｜负责人｜截止时间｜下一步｜原文证据。
+任何没有出现在原文里的负责人、日期、数字都填“待确认”，不要猜。
+```
+
+当计划正确后，再发送：
+
+```text
+按已确认计划执行。先给我 5 行中间表，我抽查事实后再生成完整表格。
+完成时另外列出：无法确定的内容、需要我补充的问题、你没有使用的输入。
+```
+
+<div class="wb-screen-note"><strong>为什么要分两轮？</strong>第一轮把“理解错任务”的风险暴露在低成本阶段；第二轮才让它生成可复制的产物。截图中的模式、任务列表和工作空间是操作定位，具体能力和名称可能随版本变化。</div>
 
 ## 任务材料
 

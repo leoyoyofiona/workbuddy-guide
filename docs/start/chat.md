@@ -8,6 +8,7 @@ testedVersion: 5.3.11
 officialLinks:
   - https://copilot.tencent.com/agents
   - https://cloud.tencent.com.cn/product/workbuddy
+  - https://www.workbuddy.cn/docs/workbuddy/Quickstart
 ---
 
 <div class="evidence-card"><strong>本机实测 · 5.3.11</strong><span>界面名称可能随版本调整；本页用“输入—计划—执行—产物”解释可迁移的任务结构。</span></div>
@@ -19,6 +20,42 @@ WorkBuddy 不只是一个聊天框。官方公开资料把它描述为能够理�
 <figure class="wb-figure"><img src="/images/workbuddy/workbench-map.svg" alt="WorkBuddy 任务工作台界面示意图，标注任务列表、对话执行区和产物检查区"><figcaption><strong>界面示意图：</strong>这是本指南制作的非官方教学图，用来帮助你定位“任务—过程—产物”三类证据，不代表当前版本的像素级 UI。</figcaption></figure>
 
 <div class="wb-example"><strong>想核对真实界面：</strong>请打开<a href="https://www.workbuddy.cn/docs/workbuddy/Quickstart">公开快速开始文档</a>中的当前截图；截图版本和页面结构可能变化，本页只把可迁移的阅读方法固定下来。</div>
+
+## 先认出桌面端的 5 个操作区
+
+下面不是“凭想象画出的界面”，而是 WorkBuddy 公开快速开始文档中的桌面端截图。红框和编号是本指南叠加的教学标记，原图版本为 v5.1.1；当前客户端可能改名或调整位置，遇到差异时以客户端提示为准。
+
+<figure class="wb-figure wb-official-figure"><img src="/images/workbuddy/official/quickstart-v5.1.1-annotated.png" alt="WorkBuddy v5.1.1 桌面端快速开始官方公开截图，带五个编号、红框和箭头标记"><figcaption><strong>官方公开截图 + 教学标注：</strong>来源为 <a href="https://www.workbuddy.cn/docs/workbuddy/Quickstart">WorkBuddy Quickstart</a>；截图版本 v5.1.1，标注由 WorkBuddy Guide 添加，不代表当前版本像素级界面。</figcaption></figure>
+
+| 步骤 | 你在图中点哪里 | 以“会议纪要变行动清单”为例 |
+| --- | --- | --- |
+| 1 | 左侧 ①「新建任务」 | 先建立独立任务，不要把不同项目混在一条长对话里。 |
+| 2 | 左侧 ②「任务 / 空间」 | 如果材料属于同一项目，先选对应空间；需要复盘时从任务列表打开旧任务。 |
+| 3 | 中间 ③输入区 | 先写目标、输入、格式和停止条件；用 `@` 引用会议文件，用 `/` 查找可用技能。 |
+| 4 | 输入框底部 ④执行选项 | 先保留默认权限；只有理解动作范围后，再切换 Craft、Auto 或技能。 |
+| 5 | 右侧 ⑤详情与产物 | 任务完成后先看概览、产物和异常，再下载或复制结果。 |
+
+### 手把手案例：把会议记录交付成可执行清单
+
+**第 1 步｜建任务。** 点击 ①「新建任务」，把任务名改成“周会纪要—行动清单—2026-08-10”。任务名包含对象和日期，后续搜索更容易。
+
+**第 2 步｜先说明边界。** 在 ③输入区粘贴下面的第一轮指令；有文件时再用 `@` 选择文件，不要把整台电脑目录交给它。
+
+```text
+目标：把《周会纪要.docx》整理成行动清单。
+输入：只读取这一个文件；不要联网，不要补充文件外事实。
+先做：列出读取到的章节、缺失字段和计划，不要直接写最终表格。
+最终格式：事项｜负责人｜截止时间｜原文证据｜待确认问题。
+停止条件：发现负责人或日期不明确时先停下来问我。
+```
+
+**第 3 步｜看计划再确认。** 计划出现后，检查它有没有把“预算可能增加”误写成“预算已批准”。如果范围正确，回复“按此计划执行；每完成一个阶段先给我中间表”。
+
+**第 4 步｜只在需要时开能力。** 需要结构化表格时再点 ④“技能”；不需要外部连接时，不要为了“看起来更强”去开启连接器或额外权限。
+
+**第 5 步｜验收产物。** 在 ⑤中检查：是否生成了表格、每行是否能回到原文、待确认项是否单独列出。抽查三行后再下载；如果只有散文总结，回到第 3 步要求固定列名。
+
+<div class="wb-screen-note"><strong>读图口诀：</strong>左侧决定“在哪个任务里做”，中间决定“让它做什么”，底部决定“允许它怎么做”，右侧决定“结果能不能交付”。</div>
 
 ## 四个区域怎么读
 

@@ -1,0 +1,23 @@
+lastReviewed: 2026-08-10
+note: 小红书公开笔记未能稳定检索到可引用原文；本站不复制小红书文字、图片或排版，技巧只在可验证来源基础上重写，并保留二手资料限制。
+sources:
+  - url: https://www.crazyowen.cn/workbuddy/docs/workbuddy/Conversation.html
+    type: secondary-public-guide
+    claims: 对话搜索、历史任务、详情面板、剪贴板图片、文件引用和执行过程的操作线索
+    limitation: 非腾讯官方页面；操作名称和版本需回到当前客户端复核
+  - url: https://www.crazyowen.cn/workbuddy/docs/workbuddy/Results.html
+    type: secondary-public-guide
+    claims: 结果区、产物、预览、文件和导出路径的操作线索
+    limitation: 非腾讯官方页面；不作为功能承诺或额度依据
+  - url: https://www.crazyowen.cn/workbuddy/docs/workbuddy/From-Beginner-to-Expert-Guide__Function-Description__Project.html
+    type: secondary-public-guide
+    claims: 项目、任务、自动化、模板、工作流和资产组织的操作线索
+    limitation: 非腾讯官方页面；需使用官方页面或本机实测确认
+  - url: https://watermelonwater.tech/insights/workbuddy%E4%B8%89%E7%A7%8D%E6%A8%A1%E5%BC%8F%E9%80%89%E6%8B%A9%E6%8C%87%E5%8D%97/
+    type: secondary-public-guide
+    claims: Craft、Plan、Ask 等执行模式的社区解释线索
+    limitation: 社区解读，不替代 WorkBuddy 当前官方说明
+  - url: https://www.workbuddy.cn/docs/workbuddy/Changelog
+    type: official
+    claims: 版本变更、发布日期和回归核验入口
+    limitation: 版本变化后须重新检查页面和截图

@@ -1,0 +1,27 @@
+lastReviewed: 2026-08-10
+policy: 官方公开截图保留原始版本信息；编号、红框、箭头和说明由 WorkBuddy Guide 叠加；当前客户端可能不同。
+media:
+  - path: /images/workbuddy/official/quickstart-v5.1.1.png
+    annotatedPath: /images/workbuddy/official/quickstart-v5.1.1-annotated.png
+    source: https://www.workbuddy.cn/docs/workbuddy/Quickstart
+    sourceImage: https://www.workbuddy.cn/docs/static/quickstart-1.DGnw1yR0.png
+    sourceType: official-public-screenshot
+    sourceVersion: '5.1.1'
+    verifiedAt: 2026-08-10
+    limitation: 公开文档截图用于界面定位，不证明当前版本的功能、参数或额度。
+  - path: /images/workbuddy/official/task-management-v5.1.1.png
+    annotatedPath: /images/workbuddy/official/task-management-v5.1.1-annotated.png
+    source: https://www.workbuddy.cn/docs/workbuddy/Task-Management
+    sourceImage: https://www.workbuddy.cn/docs/static/taskmanage-1.InLn2Uzo.png
+    sourceType: official-public-screenshot
+    sourceVersion: '5.1.1'
+    verifiedAt: 2026-08-10
+    limitation: 公开文档截图用于界面定位，不证明当前版本的功能、参数或额度。
+  - path: /images/workbuddy/official/expert-center-v5.1.4.png
+    annotatedPath: /images/workbuddy/official/expert-center-v5.1.4-annotated.png
+    source: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center
+    sourceImage: https://www.codebuddy.cn/docs/static/expert-1.BA6k1jXp.png
+    sourceType: official-public-screenshot
+    sourceVersion: '5.1.4'
+    verifiedAt: 2026-08-10
+    limitation: 该公开页面介绍 WorkBuddy 专家中心；不将 CodeBuddy IDE 内容包装为 WorkBuddy 功能。
