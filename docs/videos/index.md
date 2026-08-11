@@ -20,7 +20,7 @@ permalink: /videos/
 
 <figure class="wb-video-embed"><h3>全面掌握 WorkBuddy</h3><p>一条较完整的入门录屏，覆盖多个高频办公场景。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1j1JP6oEHA&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="全面掌握 WorkBuddy（B站原播放器）" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩 · 35:55：</strong>原作者托管。<a href="https://www.bilibili.com/video/BV1j1JP6oEHA/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
-<figure class="wb-video-embed"><h3>完整安装与体验教程</h3><p>从安装到第一次体验，适合对照桌面端流程。</p><iframe src="https://www.youtube-nocookie.com/embed/VylP-hnx6ss?rel=0" title="完整安装与体验教程（YouTube 原播放器）" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe><figcaption><strong>YouTube 原播放器：</strong>原作者托管。<a href="https://www.youtube.com/watch?v=VylP-hnx6ss" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
+<figure class="wb-video-embed"><h3>2026 WorkBuddy 完整入门教程</h3><p>从安装、基本使用到实战演示，适合第一次系统了解桌面端流程。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1TmwuzFEdd&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="2026 WorkBuddy 完整入门教程（B站原播放器）" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>原作者托管。<a href="https://www.bilibili.com/video/BV1TmwuzFEdd/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 ## 第 2 段｜基本场景
 

@@ -15,13 +15,13 @@ videos:
     status: public-third-party
     scope: 入门、常见办公场景
     limitation: 第三方作者视频；页面标注未经作者授权禁止转载，本指南只提供原视频入口。
-  - id: youtube-install
-    title: 腾讯 WorkBuddy 实测：完整安装+体验教程
-    platform: YouTube
-    url: https://www.youtube.com/watch?v=VylP-hnx6ss
+  - id: bilibili-complete-guide
+    title: 2026 全网最全腾讯 WorkBuddy 教程
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1TmwuzFEdd/
     status: public-third-party
-    scope: 安装、首次体验
-    limitation: 第三方作者视频；地区可访问性和版本可能变化。
+    scope: 安装、基础使用与实战演示
+    limitation: 第三方作者视频；本指南嵌入原播放器，不下载或再发布视频内容。
   - id: bilibili-meeting
     title: WorkBuddy 整理会议纪要
     platform: 哔哩哔哩
