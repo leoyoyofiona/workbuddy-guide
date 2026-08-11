@@ -31,6 +31,8 @@ officialLinks:
 
 <div class="wb-stage-grid"><a class="wb-stage-card" href="/start/install/"><strong>01</strong><h3>安装与版本</h3><p>确认系统、下载入口和账号准备。</p><span>先完成：能打开 WorkBuddy →</span></a><a class="wb-stage-card" href="/start/chat/"><strong>02</strong><h3>看懂桌面</h3><p>知道左侧任务、中间输入、右侧产物分别做什么。</p><span>先完成：能找到新建任务 →</span></a><a class="wb-stage-card" href="/start/first-task/"><strong>03</strong><h3>跑通第一件小事</h3><p>用一段会议记录生成行动清单。</p><span>先完成：拿到可复制表格 →</span></a></div>
 
+<p><a class="wb-inline-link" href="/cases/stage-1/">不想先看理论？直接做第 1 段 10 个入门案例 →</a></p>
+
 <div class="wb-callout"><strong>这一段不要学太多：</strong>先会“新建任务—写目标—看结果”。专家、Skill、MCP 都先放一放。</div>
 
 ## 第 2 段｜基本场景
@@ -40,6 +42,8 @@ officialLinks:
 <figure class="wb-figure wb-stage-figure"><img src="/images/workbuddy/scenario-map.svg" alt="WorkBuddy 基本场景选择图，包含工作、学习、生活、娱乐、创意、设计和生产力"><figcaption><strong>选场景，不选术语：</strong>先说你想完成什么，再决定是否需要文件、专家或技能。</figcaption></figure>
 
 <div class="wb-scenario-grid"><a href="/recipes/meeting/"><strong>工作</strong><span>会议、周报、邮件</span></a><a href="/recipes/research/"><strong>学习</strong><span>资料、读书、笔记</span></a><a href="/start/files/"><strong>生活</strong><span>计划、清单、比较</span></a><a href="/recipes/content/"><strong>娱乐</strong><span>旅行、内容、推荐</span></a><a href="/recipes/content/"><strong>创意</strong><span>选题、文案、脚本</span></a><a href="/recipes/ppt/"><strong>设计</strong><span>PPT、海报、版式</span></a><a href="/recipes/data-analysis/"><strong>生产力</strong><span>表格、批处理、复盘</span></a></div>
+
+<p><a class="wb-inline-link" href="/cases/stage-2/">拿一件日常小事练练：第 2 段有 10 个场景案例 →</a></p>
 
 <div class="wb-example"><strong>万能小白指令：</strong><br><code>目标：___。输入：只使用我提供的___。输出：请做成___。如果缺少信息，先列出待确认问题，不要猜。</code></div>
 
@@ -52,6 +56,8 @@ officialLinks:
 <figure class="wb-figure wb-stage-figure"><img src="/images/workbuddy/advanced-ladder.svg" alt="WorkBuddy 进阶能力升级阶梯，从重复工作到自动化、Skill、MCP API 和产品上线"><figcaption><strong>升级顺序：</strong>重复工作 → 自动化 → Skill → MCP/API → 产品。每一级先用测试材料验证，再扩大权限和范围。</figcaption></figure>
 
 <div class="wb-stage-grid wb-stage-grid-advanced"><a class="wb-stage-card" href="/advanced/workflows/"><strong>01</strong><h3>自动化</h3><p>把固定步骤、定时触发和批量处理写成流程。</p><span>先做：只处理测试文件 →</span></a><a class="wb-stage-card" href="/advanced/skills/"><strong>02</strong><h3>Skill</h3><p>把一次成功的方法沉淀成输入、步骤、输出和失败处理。</p><span>先做：测试正常/边界/缺失 →</span></a><a class="wb-stage-card" href="/advanced/mcp/"><strong>03</strong><h3>MCP / API</h3><p>先只读连接外部数据，再考虑小范围写入。</p><span>先做：确认权限和日志 →</span></a><a class="wb-stage-card" href="/advanced/workflows/"><strong>04</strong><h3>产品化</h3><p>把稳定工作流做成可试用、可反馈、可维护的服务。</p><span>先做：一个明确用户问题 →</span></a></div>
+
+<p><a class="wb-inline-link" href="/cases/stage-3/">想把流程做大一点？第 3 段有 10 个进阶案例 →</a></p>
 
 <div class="wb-screen-note"><strong>安全顺序：</strong>只读查询 → 测试文件 → 小范围写入 → 人工复核 → 再考虑上线和收费。不要跳过权限、日志和回滚。</div>
 

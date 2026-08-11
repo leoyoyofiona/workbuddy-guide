@@ -1,5 +1,5 @@
 lastReviewed: 2026-08-10
-policy: 官方公开截图保留原始版本信息；编号、红框、箭头和说明由 WorkBuddy Guide 叠加；当前客户端可能不同。
+policy: 官方公开截图保留原始版本信息；编号、红框、箭头和说明由 WorkBuddy Guide 叠加；当前客户端可能不同。案例库每个案例使用一张独立原创 SVG 四步图，不重复官方截图。
 media:
   - path: /images/workbuddy/learning-stages.svg
     sourceType: original-teaching-diagram

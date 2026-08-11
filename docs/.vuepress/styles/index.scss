@@ -92,6 +92,15 @@ body { background: var(--vp-c-bg); }
 .wb-scenario-grid strong, .wb-scenario-grid span { display: block; }
 .wb-scenario-grid strong { color: #1769ff; font-size: 15px; }
 .wb-scenario-grid span { margin-top: 5px; color: #657896; font-size: 13px; }
+.wb-case-index-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 24px 0 34px; }
+.wb-case-figure { margin: 18px 0 20px; padding: 12px; }
+.wb-case-figure img { background: #f7faff; }
+.wb-case-steps { margin: 14px 0 18px; padding: 18px 22px 18px 42px; border: 1px solid #dfe9f8; border-radius: 16px; background: #fff; }
+.wb-case-steps li { margin: 8px 0; padding-left: 5px; line-height: 1.75; }
+.wb-case-steps strong { color: #18345c; }
+.wb-case-check { margin: 16px 0 34px; padding: 14px 16px; border-left: 4px solid #45b37b; border-radius: 0 12px 12px 0; background: #f2fbf6; color: #426a56; line-height: 1.7; }
+.wb-case-check strong { color: #258857; }
+.wb-case-index-grid .wb-stage-card { min-height: 205px; }
 .evidence-card { display: flex; gap: 12px; align-items: flex-start; margin: 18px 0 26px; padding: 14px 16px; border: 1px solid #cfe0ff; border-radius: 12px; background: #f5f9ff; color: #466181; font-size: 14px; line-height: 1.6; }
 .evidence-card strong { color: #1769ff; white-space: nowrap; }
 .source-note { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--vp-c-divider); color: #6a7890; font-size: 13px; }
@@ -120,5 +129,5 @@ body { background: var(--vp-c-bg); }
 .wb-screen-note { margin: 16px 0 22px; padding: 13px 16px; border-left: 4px solid #1769ff; border-radius: 0 12px 12px 0; background: #f2f7ff; color: #526a8d; font-size: 14px; line-height: 1.75; }
 .wb-two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 @media (max-width: 1100px) { .wb-hero { gap: 28px; } .wb-hero h1 { font-size: clamp(40px, 5vw, 64px); } }
-@media (max-width: 900px) { .wb-hero { grid-template-columns: 1fr; gap: 12px; padding-top: 28px; } .wb-hero h1 { max-width: none; font-size: clamp(40px, 8vw, 64px); } .wb-orbit { min-height: 270px; } .wb-orbit::before { width: 210px; height: 210px; } .wb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-path, .wb-path-three { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-stage-grid-advanced { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-scenario-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (max-width: 600px) { .wb-home { padding: 22px 18px 58px; } .wb-hero h1 { font-size: clamp(38px, 11vw, 52px); letter-spacing: -.06em; } .wb-title-line { white-space: normal; } .wb-hero p { font-size: 16px; } .wb-grid, .wb-two-col, .wb-home-visual-grid, .wb-beginner-rules, .wb-mode-legend, .wb-stage-grid, .wb-stage-grid-advanced, .wb-scenario-grid { grid-template-columns: 1fr; } .wb-section-heading { display: block; } .wb-section-heading p { margin-top: 8px; } .wb-path, .wb-path-three { grid-template-columns: 1fr; } .wb-checklist { grid-template-columns: 1fr; } .navbar .site-name::after { display: none; } }
+@media (max-width: 900px) { .wb-hero { grid-template-columns: 1fr; gap: 12px; padding-top: 28px; } .wb-hero h1 { max-width: none; font-size: clamp(40px, 8vw, 64px); } .wb-orbit { min-height: 270px; } .wb-orbit::before { width: 210px; height: 210px; } .wb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-path, .wb-path-three { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-stage-grid-advanced { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-scenario-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .wb-case-index-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .wb-home { padding: 22px 18px 58px; } .wb-hero h1 { font-size: clamp(38px, 11vw, 52px); letter-spacing: -.06em; } .wb-title-line { white-space: normal; } .wb-hero p { font-size: 16px; } .wb-grid, .wb-two-col, .wb-home-visual-grid, .wb-beginner-rules, .wb-mode-legend, .wb-stage-grid, .wb-stage-grid-advanced, .wb-scenario-grid { grid-template-columns: 1fr; } .wb-section-heading { display: block; } .wb-section-heading p { margin-top: 8px; } .wb-path, .wb-path-three { grid-template-columns: 1fr; } .wb-checklist { grid-template-columns: 1fr; } .navbar .site-name::after { display: none; } .wb-case-steps { padding-left: 31px; } }

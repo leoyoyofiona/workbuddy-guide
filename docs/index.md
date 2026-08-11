@@ -32,6 +32,8 @@ pageClass: wb-home-page
     <div class="wb-grid wb-grid-scenarios"><a class="wb-card" href="/recipes/meeting"><span class="wb-kicker">工作</span><h3>会议 → 行动清单</h3><p>先看模板，再换成自己的会议记录。</p></a><a class="wb-card" href="/recipes/research"><span class="wb-kicker">学习</span><h3>资料 → 证据摘要</h3><p>先列来源，再写结论，适合小白练习。</p></a><a class="wb-card" href="/recipes/ppt"><span class="wb-kicker">创意 / 设计</span><h3>主题 → PPT 结构</h3><p>从大纲开始，不要求一次生成完美成品。</p></a></div>
   </section>
 
+  <section class="wb-section wb-lesson"><div class="wb-section-heading"><div><h2>不想看长文？直接做案例</h2><p>案例库按三段拆好，共 30 个照做练习。</p></div><a href="/cases/" class="wb-inline-link">打开案例库 →</a></div><div class="wb-path wb-path-three"><div class="wb-step"><strong>10 个</strong><span>认识工具</span><small>先找到入口</small></div><div class="wb-step"><strong>10 个</strong><span>基本场景</span><small>用到日常事</small></div><div class="wb-step"><strong>10 个</strong><span>进阶放大</span><small>再做自动化</small></div></div></section>
+
   <section class="wb-section wb-lesson"><h3>每一页怎么学</h3><p>看图 → 照做 → 检查 → 再复用。页面中的官方桌面截图会标版本，流程图会明确写“非官方教学示意图”。</p></section>
 
   <section class="wb-section wb-disclaimer"><strong>证据说明</strong><br>WorkBuddy Guide 是独立维护的非官方中文学习网站，与腾讯及 WorkBuddy 官方无隶属或授权关系。产品事实以官方页面为准；本机实测内容会注明 WorkBuddy 版本；通用模板不代表官方能力承诺。</section>
