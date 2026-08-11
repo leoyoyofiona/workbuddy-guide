@@ -3,9 +3,29 @@ import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const isOpen = ref(false)
 const coffeeRoot = ref(null)
+const lastPointerType = ref('')
 
 const close = () => {
   isOpen.value = false
+}
+
+const rememberPointer = (event) => {
+  lastPointerType.value = event.pointerType
+}
+
+const toggle = (event) => {
+  const cameFromTouchOrKeyboard = lastPointerType.value !== 'mouse' || event.detail === 0
+  isOpen.value = cameFromTouchOrKeyboard ? !isOpen.value : true
+}
+
+const isMousePointer = (event) => event.pointerType === 'mouse' || (!event.pointerType && window.matchMedia('(hover: hover)').matches)
+
+const openOnMouse = (event) => {
+  if (isMousePointer(event)) isOpen.value = true
+}
+
+const closeOnMouse = (event) => {
+  if (isMousePointer(event)) close()
 }
 
 const onFocusOut = (event) => {
@@ -21,8 +41,8 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocumentPoin
 </script>
 
 <template>
-  <div ref="coffeeRoot" class="leo-coffee" @mouseenter="isOpen = true" @mouseleave="close" @focusout="onFocusOut" @keydown.esc="close">
-    <button class="leo-coffee-trigger" type="button" :aria-expanded="isOpen" aria-controls="leo-coffee-panel" @click="isOpen = true">
+  <div ref="coffeeRoot" class="leo-coffee" @pointerenter="openOnMouse" @pointerleave="closeOnMouse" @focusout="onFocusOut" @keydown.esc="close">
+    <button class="leo-coffee-trigger" type="button" :aria-expanded="isOpen" aria-controls="leo-coffee-panel" @pointerdown="rememberPointer" @click="toggle">
       <svg class="leo-coffee-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V7Zm13 3h2a2 2 0 0 1 0 4h-2M7 3v2m4-2v2m4-2v2" /></svg>
       <span class="leo-coffee-label">请 LEO 喝杯咖啡</span>
     </button>

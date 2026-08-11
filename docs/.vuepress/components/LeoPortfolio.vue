@@ -3,6 +3,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const isOpen = ref(false)
 const portfolioRoot = ref(null)
+const lastPointerType = ref('')
 
 const projects = [
   {
@@ -146,6 +147,25 @@ const close = () => {
   isOpen.value = false
 }
 
+const rememberPointer = (event) => {
+  lastPointerType.value = event.pointerType
+}
+
+const toggle = (event) => {
+  const cameFromTouchOrKeyboard = lastPointerType.value !== 'mouse' || event.detail === 0
+  isOpen.value = cameFromTouchOrKeyboard ? !isOpen.value : true
+}
+
+const isMousePointer = (event) => event.pointerType === 'mouse' || (!event.pointerType && window.matchMedia('(hover: hover)').matches)
+
+const openOnMouse = (event) => {
+  if (isMousePointer(event)) isOpen.value = true
+}
+
+const closeOnMouse = (event) => {
+  if (isMousePointer(event)) close()
+}
+
 const onFocusOut = (event) => {
   if (!event.currentTarget.contains(event.relatedTarget)) close()
 }
@@ -159,8 +179,8 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', onDocumentPoin
 </script>
 
 <template>
-  <div ref="portfolioRoot" class="leo-portfolio" @mouseenter="isOpen = true" @mouseleave="close" @focusout="onFocusOut" @keydown.esc="close">
-    <button class="leo-portfolio-trigger" type="button" :aria-expanded="isOpen" aria-controls="leo-portfolio-panel" @click="isOpen = true">
+  <div ref="portfolioRoot" class="leo-portfolio" @pointerenter="openOnMouse" @pointerleave="closeOnMouse" @focusout="onFocusOut" @keydown.esc="close">
+    <button class="leo-portfolio-trigger" type="button" :aria-expanded="isOpen" aria-controls="leo-portfolio-panel" @pointerdown="rememberPointer" @click="toggle">
       <span class="leo-mark" aria-hidden="true">LEO</span>
       <span class="leo-trigger-label">LEO 作品</span>
       <svg class="leo-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
