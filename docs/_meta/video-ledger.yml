@@ -1,0 +1,101 @@
+lastReviewed: 2026-08-11
+policy: 仅链接或嵌入原平台播放器，不下载、不重新托管第三方视频；视频版本、界面和可访问性可能变化，教程结论仍以官方资料和当前客户端为准。
+videos:
+  - id: tencent-install
+    title: 保姆级 WorkBuddy 安装教程
+    platform: 腾讯云开发者社区
+    url: https://developer.cloud.tencent.com/video/85298
+    status: public
+    scope: 第1段安装与第一次打开
+    limitation: 腾讯云开发者社区公开视频；页面内容和客户端版本可能变化。
+  - id: bilibili-full
+    title: 全网最全！35分钟全面掌握 WorkBuddy
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1j1JP6oEHA/
+    status: public-third-party
+    scope: 入门、常见办公场景
+    limitation: 第三方作者视频；页面标注未经作者授权禁止转载，本指南只提供原视频入口。
+  - id: youtube-install
+    title: 腾讯 WorkBuddy 实测：完整安装+体验教程
+    platform: YouTube
+    url: https://www.youtube.com/watch?v=VylP-hnx6ss
+    status: public-third-party
+    scope: 安装、首次体验
+    limitation: 第三方作者视频；地区可访问性和版本可能变化。
+  - id: bilibili-meeting
+    title: WorkBuddy 整理会议纪要
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1NJLT6qEgD/
+    status: public-third-party
+    scope: 会议纪要与行动清单
+    limitation: 第三方作者视频；本指南不复制视频画面或文案。
+  - id: bilibili-ppt
+    title: AI Agent 做 PPT 保姆级解析：WorkBuddy 生成 PPT
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1UmEd6pES8
+    status: public-third-party
+    scope: PPT 大纲与分步生成
+    limitation: 第三方作者视频；标题和版本以原平台为准。
+  - id: bilibili-ppt-edit
+    title: WorkBuddy 实用案例：自动剪辑与制作 PPT
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1TCo6BvE4t/
+    status: public-third-party
+    scope: 创意、PPT、多模态产出
+    limitation: 第三方作者视频；未经授权不下载或再发布。
+  - id: bilibili-excel
+    title: Excel 电竞大赛？还好有 AI 帮我
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1RwDeB2ERL/
+    status: public-third-party
+    scope: Excel 与表格任务
+    limitation: 第三方作者视频；不把演示效果写成 WorkBuddy 的保证能力。
+  - id: bilibili-skill-plugin
+    title: WorkBuddy 的技能与插件
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1xpXUBjEoU/
+    status: public-third-party
+    scope: Skill、插件和能力扩展
+    limitation: 第三方作者视频；具体入口和参数需按当前客户端核验。
+  - id: bilibili-skill-case
+    title: 给 WorkBuddy 添加一个 Skill：增强沟通能力
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1ngdnBaEDD/
+    status: public-third-party
+    scope: 自定义 Skill 案例
+    limitation: 第三方作者视频；只作为思路参考，不代表官方 Skill 创建流程。
+  - id: bilibili-automation
+    title: 第一次设置 WorkBuddy 自动化任务
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1PgdPBtEqr
+    status: public-third-party
+    scope: 定时任务与自动化
+    limitation: 第三方作者视频；作者也记录了需要持续开机和导出格式等限制。
+  - id: bilibili-browser
+    title: WorkBuddy 稳定实现浏览器自动化任务
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1f2jH6ME1g/
+    status: public-third-party
+    scope: 浏览器自动化与外部动作
+    limitation: 第三方作者视频；涉及外部网站时必须先确认权限、隐私和平台规则。
+  - id: bilibili-agent
+    title: 有手就行：10分钟玩转 WorkBuddy AI 智能体
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1hMEj62EdT/
+    status: public-third-party
+    scope: 自定义 AI 助手与入门实践
+    limitation: 第三方作者视频；不把个别演示效果写成官方承诺。
+  - id: bilibili-data-meeting
+    title: 为啥 WorkBuddy 这么火？数据分析与会议纪要实测
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1DK7K65Ex2
+    status: public-third-party
+    scope: 数据分析、会议纪要、专家团观察
+    limitation: 第三方测评视频；结论属于作者观点，需独立核验。
+  - id: bilibili-project
+    title: TAPD + WorkBuddy 打造专属 AI 项目助理
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1wA97BXE6y/
+    status: public-third-party
+    scope: 项目管理、Skill 与外部工具
+    limitation: 第三方作者视频；连接器和项目权限不能直接照搬。

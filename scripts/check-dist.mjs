@@ -3,7 +3,7 @@ import path from 'node:path'
 
 const dist = path.resolve('docs/.vuepress/dist')
 const routes = [
-  '/', '/guide/', '/cases/', '/cases/stage-1/', '/cases/stage-2/', '/cases/stage-3/',
+  '/', '/guide/', '/cases/', '/cases/stage-1/', '/cases/stage-2/', '/cases/stage-3/', '/videos/',
   ...['install','first-task','chat','files','experts','skills','outputs','faq'].map(x => `/start/${x}/`),
   ...['prompting','planning','experts','mcp','skills','workflows','files-data','security','troubleshooting'].map(x => `/advanced/${x}/`),
   ...['research','ppt','data-analysis','content','meeting','code','feedback'].map(x => `/recipes/${x}/`),

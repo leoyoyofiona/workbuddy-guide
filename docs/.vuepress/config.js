@@ -26,6 +26,7 @@ module.exports = defineUserConfig({
     navbar: [
       { text: '学习路线', link: '/guide/' },
       { text: '案例库', link: '/cases/' },
+      { text: '视频跟练', link: '/videos/' },
       { text: '第 1 段｜认识工具', link: '/start/install' },
       { text: '第 2 段｜基本场景', link: '/recipes/meeting' },
       { text: '第 3 段｜进阶放大', link: '/advanced/workflows' },
@@ -40,6 +41,7 @@ module.exports = defineUserConfig({
         { text: '第 2 段｜10 个场景案例', link: '/cases/stage-2/' },
         { text: '第 3 段｜10 个进阶案例', link: '/cases/stage-3/' }
       ]},
+      { text: '视频跟练｜真实录屏', link: '/videos/' },
       { text: '第 1 段｜认识工具', collapsible: true, collapsed: false, children: [
         { text: '安装与账号准备', link: '/start/install/' },
         { text: '跑通第一个任务', link: '/start/first-task/' },

@@ -33,6 +33,8 @@ officialLinks:
 
 <p><a class="wb-inline-link" href="/cases/stage-1/">不想先看理论？直接做第 1 段 10 个入门案例 →</a></p>
 
+<p><a class="wb-inline-link" href="/videos/#第-1-段认识工具">先看真实桌面录屏：第 1 段视频跟练 →</a></p>
+
 <div class="wb-callout"><strong>这一段不要学太多：</strong>先会“新建任务—写目标—看结果”。专家、Skill、MCP 都先放一放。</div>
 
 ## 第 2 段｜基本场景
@@ -44,6 +46,8 @@ officialLinks:
 <div class="wb-scenario-grid"><a href="/recipes/meeting/"><strong>工作</strong><span>会议、周报、邮件</span></a><a href="/recipes/research/"><strong>学习</strong><span>资料、读书、笔记</span></a><a href="/start/files/"><strong>生活</strong><span>计划、清单、比较</span></a><a href="/recipes/content/"><strong>娱乐</strong><span>旅行、内容、推荐</span></a><a href="/recipes/content/"><strong>创意</strong><span>选题、文案、脚本</span></a><a href="/recipes/ppt/"><strong>设计</strong><span>PPT、海报、版式</span></a><a href="/recipes/data-analysis/"><strong>生产力</strong><span>表格、批处理、复盘</span></a></div>
 
 <p><a class="wb-inline-link" href="/cases/stage-2/">拿一件日常小事练练：第 2 段有 10 个场景案例 →</a></p>
+
+<p><a class="wb-inline-link" href="/videos/#第-2-段基本场景">先看真实桌面录屏：第 2 段视频跟练 →</a></p>
 
 <div class="wb-example"><strong>万能小白指令：</strong><br><code>目标：___。输入：只使用我提供的___。输出：请做成___。如果缺少信息，先列出待确认问题，不要猜。</code></div>
 
@@ -58,6 +62,8 @@ officialLinks:
 <div class="wb-stage-grid wb-stage-grid-advanced"><a class="wb-stage-card" href="/advanced/workflows/"><strong>01</strong><h3>自动化</h3><p>把固定步骤、定时触发和批量处理写成流程。</p><span>先做：只处理测试文件 →</span></a><a class="wb-stage-card" href="/advanced/skills/"><strong>02</strong><h3>Skill</h3><p>把一次成功的方法沉淀成输入、步骤、输出和失败处理。</p><span>先做：测试正常/边界/缺失 →</span></a><a class="wb-stage-card" href="/advanced/mcp/"><strong>03</strong><h3>MCP / API</h3><p>先只读连接外部数据，再考虑小范围写入。</p><span>先做：确认权限和日志 →</span></a><a class="wb-stage-card" href="/advanced/workflows/"><strong>04</strong><h3>产品化</h3><p>把稳定工作流做成可试用、可反馈、可维护的服务。</p><span>先做：一个明确用户问题 →</span></a></div>
 
 <p><a class="wb-inline-link" href="/cases/stage-3/">想把流程做大一点？第 3 段有 10 个进阶案例 →</a></p>
+
+<p><a class="wb-inline-link" href="/videos/#第-3-段进阶放大">先看真实桌面录屏：第 3 段视频跟练 →</a></p>
 
 <div class="wb-screen-note"><strong>安全顺序：</strong>只读查询 → 测试文件 → 小范围写入 → 人工复核 → 再考虑上线和收费。不要跳过权限、日志和回滚。</div>
 

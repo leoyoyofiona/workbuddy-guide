@@ -35,3 +35,4 @@ entries:
   - { route: '/cases/stage-1', status: template, source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: 10 个入门案例；只借助官方界面概念，图文为独立教学模板 }
   - { route: '/cases/stage-2', status: template, source: https://www.workbuddy.cn/work/, note: 10 个工作学习生活场景案例；不承诺特定平台、效果或额度 }
   - { route: '/cases/stage-3', status: template, source: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/MCP-Guide, note: 10 个自动化、Skill、MCP、API 和产品化通用案例；连接和上线能力需逐项核验 }
+  - { route: '/videos/', status: template, source: https://developer.cloud.tencent.com/video/85298, note: 真实桌面端视频索引；只链接原平台，不下载或重新托管第三方视频 }

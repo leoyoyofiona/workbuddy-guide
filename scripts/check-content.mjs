@@ -3,7 +3,7 @@ import path from 'node:path'
 
 const root = path.resolve('docs')
 const expected = [
-  '/', '/guide', '/cases/', '/cases/stage-1', '/cases/stage-2', '/cases/stage-3',
+  '/', '/guide', '/cases/', '/cases/stage-1', '/cases/stage-2', '/cases/stage-3', '/videos/',
   ...['install','first-task','chat','files','experts','skills','outputs','faq'].map(x => `/start/${x}`),
   ...['prompting','planning','experts','mcp','skills','workflows','files-data','security','troubleshooting'].map(x => `/advanced/${x}`),
   ...['research','ppt','data-analysis','content','meeting','code','feedback'].map(x => `/recipes/${x}`),
@@ -23,6 +23,7 @@ const routes = new Set()
 const errors = []
 const ledger = fs.readFileSync(path.join(root, '_meta/source-ledger.yml'), 'utf8')
 const mediaLedgerPath = path.join(root, '_meta/media-ledger.yml')
+const videoLedgerPath = path.join(root, '_meta/video-ledger.yml')
 if (!fs.existsSync(mediaLedgerPath)) errors.push('missing docs/_meta/media-ledger.yml')
 else {
   const mediaLedger = fs.readFileSync(mediaLedgerPath, 'utf8')
@@ -32,6 +33,13 @@ else {
     const filePath = path.join(root, '.vuepress/public', mediaPath.replace(/^\//, ''))
     if (!fs.existsSync(filePath)) errors.push(`media ledger file missing ${mediaPath}`)
   }
+}
+if (!fs.existsSync(videoLedgerPath)) errors.push('missing docs/_meta/video-ledger.yml')
+else {
+  const videoLedger = fs.readFileSync(videoLedgerPath, 'utf8')
+  const videoUrls = [...videoLedger.matchAll(/^\s*url:\s*(https?:\/\/\S+)/gm)].map(match => match[1])
+  if (videoUrls.length < 10) errors.push(`video ledger has too few sources: ${videoUrls.length}`)
+  for (const url of videoUrls) if (!/^https:\/\//.test(url)) errors.push(`video ledger has invalid URL ${url}`)
 }
 for (const file of markdown) {
   const raw = fs.readFileSync(file, 'utf8')

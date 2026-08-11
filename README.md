@@ -19,7 +19,7 @@ pnpm docs:dev
 pnpm build
 ```
 
-构建会先检查 34 个公开路由的 frontmatter、来源台账和 clean permalink，再生成静态文件、Sitemap、robots.txt，并检查产物路由。
+构建会先检查 35 个公开路由的 frontmatter、来源台账和 clean permalink，再生成静态文件、Sitemap、robots.txt，并检查产物路由。
 
 ## 内容证据
 
@@ -32,6 +32,8 @@ WorkBuddy 官方信息请以[官方产品页](https://copilot.tencent.com/work/)
 引导页现在按“三段学习”：认识工具 → 基本场景 → 进阶放大；每个案例再按“看图 → 照做 → 检查 → 复用”组织，减少连续长文，并优先使用表格、流程图和授权边界图。`docs/.vuepress/public/images/workbuddy/` 中同时保留两类素材：
 
 案例库位于 [`docs/cases/`](docs/cases/)，三个阶段各 10 个案例，共 30 个；每个案例都有独立原创四步图、可直接复制的提示词和完成检查点。
+
+真实桌面端视频索引位于 [`docs/videos/`](docs/videos/)，只链接腾讯云开发者社区、B 站和 YouTube 原视频，不下载、不二次托管；视频标题、链接、适用阶段和限制记录在 [`docs/_meta/video-ledger.yml`](docs/_meta/video-ledger.yml)。
 
 - `official/`：来自 WorkBuddy 公开文档的桌面端截图，原始版本、来源 URL 和限制记录在 [`docs/_meta/media-ledger.yml`](docs/_meta/media-ledger.yml)；红框、箭头和编号是本指南叠加的教学标注。
 - 其他 SVG：本项目制作的非官方教学示意图，不冒充腾讯产品截图。
