@@ -24,14 +24,62 @@ module.exports = defineUserConfig({
     repoLabel: 'GitHub',
     docsDir: 'docs',
     navbar: [
-      { text: '学习路线', link: '/guide/' },
-      { text: '案例库', link: '/cases/' },
-      { text: '视频跟练', link: '/videos/' },
-      { text: '第 1 段｜认识工具', link: '/start/install' },
-      { text: '第 2 段｜基本场景', link: '/recipes/meeting' },
-      { text: '第 3 段｜进阶放大', link: '/advanced/workflows' },
-      { text: '手册', link: '/manual/updates' },
-      { text: '贡献', link: '/community/contribute' }
+      { text: '学习路线', link: '/guide/', children: [
+        { text: '三段学习总览', link: '/guide/' },
+        { text: '第 1 段｜认识工具', link: '/start/install/' },
+        { text: '第 2 段｜基本场景', link: '/recipes/meeting/' },
+        { text: '第 3 段｜进阶放大', link: '/advanced/workflows/' }
+      ] },
+      { text: '案例库', link: '/cases/', children: [
+        { text: '案例库总览｜30 个照做案例', link: '/cases/' },
+        { text: '第 1 段｜10 个入门案例', link: '/cases/stage-1/' },
+        { text: '第 2 段｜10 个场景案例', link: '/cases/stage-2/' },
+        { text: '第 3 段｜10 个进阶案例', link: '/cases/stage-3/' }
+      ] },
+      { text: '视频跟练', link: '/videos/', children: [
+        { text: '视频跟练总览', link: '/videos/' },
+        { text: '第 1 段｜认识工具', link: '/videos/#第-1-段-认识工具' },
+        { text: '第 2 段｜基本场景', link: '/videos/#第-2-段-基本场景' },
+        { text: '第 3 段｜进阶放大', link: '/videos/#第-3-段-进阶放大' }
+      ] },
+      { text: '第 1 段｜认识工具', link: '/start/install/', children: [
+        { text: '安装与账号准备', link: '/start/install/' },
+        { text: '跑通第一个任务', link: '/start/first-task/' },
+        { text: '看懂桌面与工作区', link: '/start/chat/' },
+        { text: '文件、引用与产物', link: '/start/files/' },
+        { text: '认识 AI 专家团', link: '/start/experts/' },
+        { text: 'Skills 与能力扩展', link: '/start/skills/' },
+        { text: '产物与交付检查', link: '/start/outputs/' },
+        { text: '快速上手 FAQ', link: '/start/faq/' }
+      ] },
+      { text: '第 2 段｜基本场景', link: '/recipes/meeting/', children: [
+        { text: '会议记录 → 行动清单', link: '/recipes/meeting/' },
+        { text: '外部信息调研', link: '/recipes/research/' },
+        { text: '业务数据洞察', link: '/recipes/data-analysis/' },
+        { text: '内容创作与改写', link: '/recipes/content/' },
+        { text: '从主题到 PPT', link: '/recipes/ppt/' },
+        { text: '用户反馈与分析', link: '/recipes/feedback/' },
+        { text: 'CodeBuddy 内容边界', link: '/recipes/code/' }
+      ] },
+      { text: '第 3 段｜进阶放大', link: '/advanced/workflows/', children: [
+        { text: '写出可执行的指令', link: '/advanced/prompting/' },
+        { text: '任务拆解与计划', link: '/advanced/planning/' },
+        { text: '多专家并行协作', link: '/advanced/experts/' },
+        { text: '自动化工作流', link: '/advanced/workflows/' },
+        { text: '设计可复用 Skill', link: '/advanced/skills/' },
+        { text: 'MCP 生态与连接边界', link: '/advanced/mcp/' },
+        { text: '文件与数据分析', link: '/advanced/files-data/' },
+        { text: '隐私、授权与安全', link: '/advanced/security/' },
+        { text: '常见失败与排查', link: '/advanced/troubleshooting/' }
+      ] },
+      { text: '手册', link: '/manual/updates/', children: [
+        { text: '额度、套餐与边界', link: '/manual/limits/' },
+        { text: '版本与更新记录', link: '/manual/updates/' }
+      ] },
+      { text: '贡献', link: '/community/contribute/', children: [
+        { text: '贡献内容', link: '/community/contribute/' },
+        { text: '反馈与问题报告', link: '/community/feedback/' }
+      ] }
     ],
     sidebar: [
       { text: '学习路线', link: '/guide/' },
@@ -86,7 +134,7 @@ module.exports = defineUserConfig({
     navbarLayout: {
       start: ['Brand'],
       center: ['Links'],
-      end: ['LeoPortfolio', 'Repo', 'Outlook', 'Search']
+      end: ['LeoPortfolio', 'LeoCoffee', 'Repo', 'Outlook', 'Search']
     },
     print: false,
     pageInfo: ['ReadingTime'],
