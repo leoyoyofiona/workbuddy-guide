@@ -15,6 +15,8 @@ permalink: /videos/
 
 <div class="evidence-card"><strong>怎么看视频</strong><span>先看目标，再暂停照做；遇到版本、入口或额度不一致，以当前 WorkBuddy 客户端和官方资料为准。视频下方的文字步骤才是本指南的可复核操作清单。</span></div>
 
+<figure class="wb-video-embed"><iframe src="https://player.bilibili.com/player.html?bvid=BV1j1JP6oEHA&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="全网最全：35分钟全面掌握 WorkBuddy（B站原播放器）" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>视频画面预览：</strong>B 站原播放器嵌入的《全网最全！35分钟全面掌握 WorkBuddy》。视频与封面均由原作者在 B 站托管；本指南不保存、下载或再发布视频内容。<a href="https://www.bilibili.com/video/BV1j1JP6oEHA/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
+
 ## 第 1 段｜认识工具
 
 <div class="wb-video-grid">

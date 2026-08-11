@@ -109,6 +109,10 @@ body { background: var(--vp-c-bg); }
 .wb-video-card a { display: inline-flex; align-self: flex-start; margin-top: 14px; color: #1769ff; font-size: 13px; font-weight: 700; text-decoration: none; }
 .wb-video-card a:hover { text-decoration: underline; }
 .wb-case-video { margin: 14px 0 20px; }
+.wb-video-embed { margin: 24px 0 34px; padding: 14px; border: 1px solid #cfe0ff; border-radius: 18px; background: #f7faff; box-shadow: 0 12px 30px rgba(35, 90, 170, .08); }
+.wb-video-embed iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 12px; background: #14213d; }
+.wb-video-embed figcaption { margin: 12px 4px 2px; color: #607390; font-size: 13px; line-height: 1.7; }
+.wb-video-embed figcaption strong, .wb-video-embed figcaption a { color: #1769ff; }
 .evidence-card { display: flex; gap: 12px; align-items: flex-start; margin: 18px 0 26px; padding: 14px 16px; border: 1px solid #cfe0ff; border-radius: 12px; background: #f5f9ff; color: #466181; font-size: 14px; line-height: 1.6; }
 .evidence-card strong { color: #1769ff; white-space: nowrap; }
 .source-note { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--vp-c-divider); color: #6a7890; font-size: 13px; }
