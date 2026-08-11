@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">WorkBuddy 进阶能力升级阶梯</title>
+  <desc id="desc">从重复操作开始，依次学习自动化、Skill、MCP/API 和产品化。</desc>
+  <rect width="1200" height="440" rx="28" fill="#f7faff"/>
+  <text x="56" y="62" font-family="Arial,'PingFang SC',sans-serif" font-size="27" font-weight="700" fill="#14213d">进阶不是跳进深水区，而是一级一级加能力</text>
+  <text x="56" y="94" font-family="Arial,'PingFang SC',sans-serif" font-size="16" fill="#5f6f89">每一级都先用小样例验证，再扩大范围</text>
+  <g font-family="Arial,'PingFang SC',sans-serif">
+    <path d="M80 346H1120" stroke="#d3e2ff" stroke-width="4"/>
+    <rect x="80" y="274" width="210" height="72" rx="16" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="185" y="306" text-anchor="middle" font-size="21" font-weight="700" fill="#1769ff">重复工作</text><text x="185" y="330" text-anchor="middle" font-size="14" fill="#5f6f89">先记录步骤</text>
+    <rect x="322" y="224" width="210" height="122" rx="16" fill="#eaf2ff" stroke="#8fb5ff" stroke-width="3"/><text x="427" y="266" text-anchor="middle" font-size="21" font-weight="700" fill="#1769ff">自动化</text><text x="427" y="292" text-anchor="middle" font-size="14" fill="#5f6f89">定时 / 批量 / 触发</text><text x="427" y="318" text-anchor="middle" font-size="13" fill="#b05b00">先用测试文件</text>
+    <rect x="564" y="174" width="210" height="172" rx="16" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="669" y="222" text-anchor="middle" font-size="21" font-weight="700" fill="#1769ff">Skill</text><text x="669" y="250" text-anchor="middle" font-size="14" fill="#5f6f89">把方法写成可复用步骤</text><text x="669" y="278" text-anchor="middle" font-size="14" fill="#5f6f89">输入 / 输出 / 失败处理</text><text x="669" y="314" text-anchor="middle" font-size="13" fill="#b05b00">先测三种样例</text>
+    <rect x="806" y="124" width="210" height="222" rx="16" fill="#eaf2ff" stroke="#8fb5ff" stroke-width="3"/><text x="911" y="176" text-anchor="middle" font-size="21" font-weight="700" fill="#1769ff">MCP / API</text><text x="911" y="204" text-anchor="middle" font-size="14" fill="#5f6f89">连接外部数据和工具</text><text x="911" y="232" text-anchor="middle" font-size="14" fill="#5f6f89">只读 → 小范围写入</text><text x="911" y="268" text-anchor="middle" font-size="13" fill="#b05b00">权限与日志先行</text>
+    <rect x="1048" y="74" width="110" height="272" rx="16" fill="#1769ff"/><text x="1103" y="150" text-anchor="middle" font-size="21" font-weight="700" fill="#fff">产品</text><text x="1103" y="181" text-anchor="middle" font-size="16" fill="#eaf2ff">上线</text><text x="1103" y="212" text-anchor="middle" font-size="16" fill="#eaf2ff">试用</text><text x="1103" y="243" text-anchor="middle" font-size="16" fill="#eaf2ff">反馈</text><text x="1103" y="290" text-anchor="middle" font-size="13" fill="#eaf2ff">再考虑</text>
+  </g>
+  <g stroke="#1769ff" stroke-width="4" fill="none"><path d="M290 310H312" marker-end="url(#arrow)"/><path d="M532 260H554" marker-end="url(#arrow)"/><path d="M774 210H796" marker-end="url(#arrow)"/><path d="M1016 160H1038" marker-end="url(#arrow)"/></g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#1769ff"/></marker></defs>
+</svg>

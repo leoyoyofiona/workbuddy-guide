@@ -3,7 +3,7 @@ title: 工作流编排
 description: 用周报案例把触发、输入、步骤、确认点、异常处理和交付物组织成可复用流程。
 sourceStatus: template
 permalink: /advanced/workflows/
-verifiedAt: 2026-08-10
+verifiedAt: 2026-08-11
 officialLinks:
   - https://copilot.tencent.com/work/
   - https://cloud.tencent.com.cn/product/workbuddy
@@ -16,6 +16,8 @@ officialLinks:
 工作流不是把一条超长指令保存下来，而是把重复任务拆成有输入、有状态、有停止条件的步骤。先手动跑通，再考虑 Skill、自动化或连接器。
 
 <figure class="wb-figure"><img src="/images/workbuddy/plan-loop.svg" alt="工作流从目标到复用的六步闭环示意图"><figcaption><strong>编排原则：</strong>每一步都要有产物和失败处理，最后才谈是否自动触发。</figcaption></figure>
+
+<figure class="wb-figure wb-stage-figure"><img src="/images/workbuddy/advanced-ladder.svg" alt="WorkBuddy 从重复工作升级到自动化、Skill、MCP API 和产品化的阶梯图"><figcaption><strong>产品化阶梯：</strong>先把自己的工作跑稳定，再考虑让别人试用；图中的“上线”不代表收入承诺。</figcaption></figure>
 
 ## 案例：每周一整理销售周报
 
@@ -39,6 +41,28 @@ officialLinks:
 ## 练习：手动模拟一次自动化
 
 连续三周手动运行同一个模板，每次记录耗时、改动、失败原因和输入差异。三次都稳定后，再判断哪些步骤可以自动化，哪些步骤必须保留人工确认。
+
+## 从工作流到小产品：一个不吓人的最小路线
+
+案例：做一个“跨境店铺周报助手”的可试用版本。它不是一开始就开发完整 SaaS，而是先把一个重复问题跑通。
+
+| 小步 | 你做什么 | 先不要做什么 |
+| --- | --- | --- |
+| 1. 找问题 | 只服务一个人群、一个输入、一个结果，例如“上传周报表 → 输出异常清单”。 | 不要一上来做万能助手。 |
+| 2. 手动跑通 | 用 3 份脱敏样例，记录每次输入、耗时、修改和失败点。 | 不要把一次成功当成稳定产品。 |
+| 3. 封装 Skill | 把固定步骤、字段、输出格式和缺失处理写成 Skill。 | 不要把隐藏的个人经验留在脑子里。 |
+| 4. 接入数据 | 先只读查询；需要 API/MCP 时写清账号、权限、日志和撤销方法。 | 不要把生产账号直接接入试验。 |
+| 5. 小范围试用 | 让 1—3 位真实用户试用，收集“哪里不懂、哪里不信、哪里想改”。 | 不要先承诺效果、价格或收入。 |
+| 6. 再决定上线 | 根据需求决定做网页、机器人、内部工具或服务包。 | 不要跳过隐私、成本和支持流程。 |
+
+```text
+请把“跨境店铺周报助手”拆成一个可试用版本。
+输入：一份脱敏销售表和周报模板。
+输出：数据质量表、异常清单、200 字摘要、待确认问题。
+先列出最小功能、权限边界、失败处理和试用反馈表，不写收入预测。
+```
+
+<div class="wb-screen-note"><strong>赚钱不是功能：</strong>能否收费取决于真实用户问题、交付成本、合规、支持和持续使用。WorkBuddy 只负责工作流的一部分，不替你保证商业结果。</div>
 
 <div class="wb-callout"><strong>完成标准：</strong>别人可以只看你的流程表，就知道何时开始、读什么、哪里停、产出什么以及失败后如何恢复。</div>
 

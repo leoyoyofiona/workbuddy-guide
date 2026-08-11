@@ -1,6 +1,22 @@
 lastReviewed: 2026-08-10
 policy: 官方公开截图保留原始版本信息；编号、红框、箭头和说明由 WorkBuddy Guide 叠加；当前客户端可能不同。
 media:
+  - path: /images/workbuddy/learning-stages.svg
+    sourceType: original-teaching-diagram
+    verifiedAt: 2026-08-11
+    limitation: 本项目原创路线图，不代表腾讯官方课程或产品界面。
+  - path: /images/workbuddy/beginner-click-path.svg
+    sourceType: original-teaching-diagram
+    verifiedAt: 2026-08-11
+    limitation: 本项目原创操作路径示意图；真实控件以官方截图和当前客户端为准。
+  - path: /images/workbuddy/scenario-map.svg
+    sourceType: original-teaching-diagram
+    verifiedAt: 2026-08-11
+    limitation: 本项目原创场景选择图，不代表 WorkBuddy 的官方分类目录。
+  - path: /images/workbuddy/advanced-ladder.svg
+    sourceType: original-teaching-diagram
+    verifiedAt: 2026-08-11
+    limitation: 本项目原创进阶路线图；不承诺 API、收入或上线结果。
   - path: /images/workbuddy/official/quickstart-v5.1.1.png
     annotatedPath: /images/workbuddy/official/quickstart-v5.1.1-annotated.png
     source: https://www.workbuddy.cn/docs/workbuddy/Quickstart

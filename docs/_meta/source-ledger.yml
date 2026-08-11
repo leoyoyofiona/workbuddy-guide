@@ -2,7 +2,7 @@ lastReviewed: 2026-08-10
 officialWorkBuddySource: https://copilot.tencent.com/work/
 entries:
   - { route: '/', status: official, source: https://copilot.tencent.com/work/, note: 产品定位与办公场景 }
-  - { route: '/guide/', status: official, source: https://copilot.tencent.com/work/, note: 学习路径按官方公开能力组织，案例与验收为独立编排 }
+  - { route: '/guide/', status: official, source: https://www.workbuddy.cn/work/, note: 三段式学习路径按官方公开能力组织；小红书/社区线索仅用于发现新手表达方式，页面内容为独立重写 }
   - { route: '/start/install', status: official, source: https://copilot.tencent.com/work/, note: 下载平台以官方页面为准，平台差异需按当前页面复核 }
   - { route: '/start/first-task', status: tested, version: '5.3.11', source: https://www.workbuddy.cn/docs/workbuddy/Task-Management, note: 本机实测记录；桌面截图为官方公开 v5.1.1，标注为独立叠加 }
   - { route: '/start/chat', status: tested, version: '5.3.11', source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: 本机实测记录；桌面截图为官方公开 v5.1.1，标注为独立叠加 }
@@ -14,7 +14,7 @@ entries:
   - { route: '/advanced/prompting', status: template, source: https://copilot.tencent.com/work/, note: 通用指令方法 }
   - { route: '/advanced/planning', status: template, source: https://copilot.tencent.com/work/, note: 通用任务拆解方法 }
   - { route: '/advanced/experts', status: official, source: https://cloud.tencent.com/document/product/1831/134393, note: 专家/专家团角色协作，案例编排为独立方法 }
-  - { route: '/advanced/mcp', status: official, source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: MCP/连接器与授权边界公开描述；截图仅用于定位技能、权限和产物检查点 }
+  - { route: '/advanced/mcp', status: official, source: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/MCP-Guide, note: MCP/连接器与授权边界公开描述；截图仅用于定位技能、权限和产物检查点 }
   - { route: '/advanced/skills', status: official, source: https://www.workbuddy.cn/docs/workbuddy/Quickstart, note: Skills 能力公开描述；桌面截图为官方公开 v5.1.1，测试矩阵为独立方法 }
   - { route: '/advanced/workflows', status: template, source: https://copilot.tencent.com/work/, note: 通用工作流设计 }
   - { route: '/advanced/files-data', status: official, source: https://cloud.tencent.com.cn/product/workbuddy, note: 多模态文件与数据分析公开场景 }

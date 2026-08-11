@@ -5,7 +5,7 @@ import { hopeTheme } from 'vuepress-theme-hope'
 module.exports = defineUserConfig({
   lang: 'zh-CN',
   title: 'WorkBuddy Guide',
-  description: 'WorkBuddy 中文学习指南：从第一次使用到可复用的 AI 工作流。非官方维护。',
+  description: 'WorkBuddy 中文小白学习指南：三段式掌握工具、基本场景和进阶自动化。非官方维护。',
   base: '/',
   cleanUrls: true,
   hostname: 'https://workbuddy-guide.onrender.com',
@@ -25,25 +25,50 @@ module.exports = defineUserConfig({
     docsDir: 'docs',
     navbar: [
       { text: '学习路线', link: '/guide/' },
-      { text: '快速上手', link: '/start/install' },
-      { text: '进阶能力', link: '/advanced/prompting' },
-      { text: '实战配方', link: '/recipes/research' },
-      { text: '产品手册', link: '/manual/updates' },
+      { text: '第 1 段｜认识工具', link: '/start/install' },
+      { text: '第 2 段｜基本场景', link: '/recipes/meeting' },
+      { text: '第 3 段｜进阶放大', link: '/advanced/workflows' },
+      { text: '手册', link: '/manual/updates' },
       { text: '贡献', link: '/community/contribute' }
     ],
     sidebar: [
-        { text: '学习路线', link: '/guide/' },
-        { text: '快速上手', prefix: '/start/', children: [
-          'install', 'first-task', 'chat', 'files', 'experts', 'skills', 'outputs', 'faq'
-        ]},
-        { text: '进阶能力', prefix: '/advanced/', children: [
-          'prompting', 'planning', 'experts', 'mcp', 'skills', 'workflows', 'files-data', 'security', 'troubleshooting'
-        ]},
-        { text: '实战配方', prefix: '/recipes/', children: [
-          'research', 'ppt', 'data-analysis', 'content', 'meeting', 'code', 'feedback'
-        ]},
-        { text: '产品手册', prefix: '/manual/', children: ['limits', 'updates'] },
-        { text: '社区', prefix: '/community/', children: ['contribute', 'feedback'] }
+      { text: '学习路线', link: '/guide/' },
+      { text: '第 1 段｜认识工具', collapsible: true, collapsed: false, children: [
+        { text: '安装与账号准备', link: '/start/install/' },
+        { text: '跑通第一个任务', link: '/start/first-task/' },
+        { text: '看懂桌面与工作区', link: '/start/chat/' },
+        { text: '文件、引用与产物', link: '/start/files/' },
+        { text: '认识 AI 专家团', link: '/start/experts/' },
+        { text: 'Skills 与能力扩展', link: '/start/skills/' },
+        { text: '产物与交付检查', link: '/start/outputs/' },
+        { text: '快速上手 FAQ', link: '/start/faq/' }
+      ]},
+      { text: '第 2 段｜基本场景', collapsible: true, collapsed: true, children: [
+        { text: '会议记录 → 行动清单', link: '/recipes/meeting/' },
+        { text: '外部信息调研', link: '/recipes/research/' },
+        { text: '业务数据洞察', link: '/recipes/data-analysis/' },
+        { text: '内容创作与改写', link: '/recipes/content/' },
+        { text: '从主题到 PPT', link: '/recipes/ppt/' },
+        { text: '用户反馈与分析', link: '/recipes/feedback/' },
+        { text: 'CodeBuddy 内容边界', link: '/recipes/code/' }
+      ]},
+      { text: '第 3 段｜进阶放大', collapsible: true, collapsed: true, children: [
+        { text: '写出可执行的指令', link: '/advanced/prompting/' },
+        { text: '任务拆解与计划', link: '/advanced/planning/' },
+        { text: '多专家并行协作', link: '/advanced/experts/' },
+        { text: '自动化工作流', link: '/advanced/workflows/' },
+        { text: '设计可复用 Skill', link: '/advanced/skills/' },
+        { text: 'MCP 生态与连接边界', link: '/advanced/mcp/' },
+        { text: '文件与数据分析', link: '/advanced/files-data/' },
+        { text: '隐私、授权与安全', link: '/advanced/security/' },
+        { text: '常见失败与排查', link: '/advanced/troubleshooting/' }
+      ]},
+      { text: '参考手册与社区', collapsible: true, collapsed: true, children: [
+        { text: '额度、套餐与边界', link: '/manual/limits/' },
+        { text: '版本与更新记录', link: '/manual/updates/' },
+        { text: '贡献内容', link: '/community/contribute/' },
+        { text: '反馈与问题报告', link: '/community/feedback/' }
+      ]}
     ],
     editLink: false,
     lastUpdated: false,

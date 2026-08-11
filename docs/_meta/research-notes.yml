@@ -1,6 +1,18 @@
 lastReviewed: 2026-08-10
 note: 小红书公开笔记未能稳定检索到可引用原文；本站不复制小红书文字、图片或排版，技巧只在可验证来源基础上重写，并保留二手资料限制。
 sources:
+  - url: https://www.xmsumi.com/detail/3073
+    type: secondary-public-guide
+    claims: 用“先选场景、再选执行方式”的新手解释，Ask/Plan/Craft 的通俗区分
+    limitation: 非腾讯官方页面；模式名称、默认行为和版本需以当前客户端复核
+  - url: https://workbuddy.homes/bluebook/
+    type: secondary-public-guide
+    claims: 将入门、Skill、API、自动化、知识管理和多 Agent 组织成分章学习路径的目录线索
+    limitation: 非腾讯官方页面；只借鉴学习路径结构，不复制章节文案或素材
+  - url: https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/MCP-Guide
+    type: official-public-doc
+    claims: WorkBuddy MCP 配置入口、外部工具接入和可视化配置线索
+    limitation: 页面托管于 CodeBuddy 域名但明确位于 WorkBuddy 文档路径；不将 CodeBuddy IDE 内容包装为 WorkBuddy 功能
   - url: https://www.crazyowen.cn/workbuddy/docs/workbuddy/Conversation.html
     type: secondary-public-guide
     claims: 对话搜索、历史任务、详情面板、剪贴板图片、文件引用和执行过程的操作线索

@@ -29,7 +29,7 @@ WorkBuddy 官方信息请以[官方产品页](https://copilot.tencent.com/work/)
 
 ## 案例与可视化教学
 
-引导页按“案例目标 → 输入准备 → 指令/步骤 → 中间产物 → 验收 → 失败排查 → 复用”组织，并优先使用表格、流程图和授权边界图。`docs/.vuepress/public/images/workbuddy/` 中同时保留两类素材：
+引导页现在按“三段学习”：认识工具 → 基本场景 → 进阶放大；每个案例再按“看图 → 照做 → 检查 → 复用”组织，减少连续长文，并优先使用表格、流程图和授权边界图。`docs/.vuepress/public/images/workbuddy/` 中同时保留两类素材：
 
 - `official/`：来自 WorkBuddy 公开文档的桌面端截图，原始版本、来源 URL 和限制记录在 [`docs/_meta/media-ledger.yml`](docs/_meta/media-ledger.yml)；红框、箭头和编号是本指南叠加的教学标注。
 - 其他 SVG：本项目制作的非官方教学示意图，不冒充腾讯产品截图。

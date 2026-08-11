@@ -8,6 +8,7 @@ officialLinks:
   - https://cloud.tencent.com.cn/product/workbuddy
   - https://cloud.tencent.com/document/product/1831/134393
   - https://www.workbuddy.cn/docs/workbuddy/Quickstart
+  - https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/MCP-Guide
 ---
 
 <div class="evidence-card"><strong>官方资料</strong><span>官方资料将连接器描述为 WorkBuddy 与外部服务之间的桥梁，并提醒授权和数据边界；具体连接器清单以当前客户端为准。</span></div>
@@ -15,6 +16,16 @@ officialLinks:
 # MCP 生态与连接边界
 
 MCP 可以理解为让 AI 工作流连接外部工具和数据的协议生态。学习重点不是背缩写，而是能回答：连接了谁、读取什么、能否写入、谁批准、如何撤销。
+
+## MCP 和 API，先用一句话分清
+
+| 名词 | 小白理解 | 适合先做什么 |
+| --- | --- | --- |
+| MCP / 连接器 | 给 WorkBuddy 接上一件“可以调用的工具” | 查数据、生成草稿、读取受控系统 |
+| API | 外部系统提供的一条“可请求地址” | 让两个系统按约定交换数据 |
+| Skill | 把“怎么做”写成一套步骤 | 固定格式、固定检查、固定交付 |
+
+它们经常一起出现，但不是同一个东西：Skill 负责方法，MCP/API 负责连接；连接是否可用、是否有权限，必须以当前客户端和组织配置为准。
 
 <figure class="wb-figure"><img src="/images/workbuddy/permission-flow.svg" alt="MCP 与连接器授权数据流示意图，展示用户、WorkBuddy 和外部工具之间的最小权限与确认边界"><figcaption><strong>授权阅读法：</strong>实线代表请求/调用，虚线代表结果或权限状态回传；任何写入、发送或付费动作都要回到用户确认。</figcaption></figure>
 

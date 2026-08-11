@@ -54,9 +54,44 @@ body { background: var(--vp-c-bg); }
 .wb-card h3 { margin: 10px 0 7px; color: #172743; font-size: 18px; }
 .wb-card p { margin: 0; color: var(--vp-c-text-2); line-height: 1.65; font-size: 14px; }
 .wb-path { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; padding: 18px; border-radius: var(--wb-radius); background: linear-gradient(135deg, #f4f8ff, #edf4ff); }
+.wb-path-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .wb-step { position: relative; padding: 18px; border-radius: 14px; background: rgba(255,255,255,.8); }
 .wb-step strong { display: block; color: #1769ff; font-size: 12px; }
 .wb-step span { display: block; margin-top: 7px; font-weight: 700; color: #1b2e4d; }
+.wb-step small { display: block; margin-top: 9px; color: #6b7d9b; font-size: 12px; }
+.wb-home-visual { padding: 22px 0; }
+.wb-inline-link { color: #1769ff; font-size: 14px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.wb-home-visual-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.wb-mini-rule { padding: 18px 20px; border-left: 4px solid #1769ff; border-radius: 0 14px 14px 0; background: #f5f9ff; }
+.wb-mini-rule strong, .wb-mini-rule span { display: block; }
+.wb-mini-rule strong { color: #18345c; font-size: 16px; }
+.wb-mini-rule span { margin-top: 7px; color: #657896; font-size: 13px; }
+.wb-stage-figure { margin-top: 22px; }
+.wb-beginner-rules { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 18px 0 28px; }
+.wb-beginner-rules > div { padding: 15px 16px; border: 1px solid #dbe7f7; border-radius: 14px; background: #fff; }
+.wb-beginner-rules strong, .wb-beginner-rules span { display: block; }
+.wb-beginner-rules strong { color: #1769ff; font-size: 14px; }
+.wb-beginner-rules span { margin-top: 6px; color: #5f6f89; font-size: 13px; }
+.wb-mode-legend { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 18px 0 28px; }
+.wb-mode-legend > div { padding: 15px 18px; border: 1px solid #dbe7f7; border-radius: 14px; background: #fff; }
+.wb-mode-legend strong, .wb-mode-legend span { display: block; }
+.wb-mode-legend strong { color: #1769ff; font-size: 16px; }
+.wb-mode-legend span { margin-top: 5px; color: #657896; font-size: 13px; }
+.wb-mode-legend .is-primary { border-color: #8fb5ff; background: #eaf2ff; }
+.wb-stage-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 18px 0 26px; }
+.wb-stage-grid-advanced { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.wb-stage-card { display: block; min-height: 168px; padding: 20px; border: 1px solid #dbe7f7; border-radius: 18px; background: #fff; box-shadow: 0 10px 28px rgba(35, 90, 170, .06); text-decoration: none !important; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.wb-stage-card:hover { transform: translateY(-3px); border-color: #a8c6fb; box-shadow: 0 16px 32px rgba(35, 90, 170, .12); }
+.wb-stage-card strong { color: #1769ff; font-size: 12px; letter-spacing: .08em; }
+.wb-stage-card h3 { margin: 9px 0 7px; color: #18345c; font-size: 19px; }
+.wb-stage-card p { margin: 0; color: #607390; font-size: 14px; line-height: 1.65; }
+.wb-stage-card span { display: block; margin-top: 14px; color: #1769ff; font-size: 13px; font-weight: 700; }
+.wb-scenario-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 18px 0 26px; }
+.wb-scenario-grid a { display: block; padding: 16px 18px; border: 1px solid #dbe7f7; border-radius: 14px; background: #fff; text-decoration: none !important; }
+.wb-scenario-grid a:hover { border-color: #9fc0ff; background: #f7faff; }
+.wb-scenario-grid strong, .wb-scenario-grid span { display: block; }
+.wb-scenario-grid strong { color: #1769ff; font-size: 15px; }
+.wb-scenario-grid span { margin-top: 5px; color: #657896; font-size: 13px; }
 .evidence-card { display: flex; gap: 12px; align-items: flex-start; margin: 18px 0 26px; padding: 14px 16px; border: 1px solid #cfe0ff; border-radius: 12px; background: #f5f9ff; color: #466181; font-size: 14px; line-height: 1.6; }
 .evidence-card strong { color: #1769ff; white-space: nowrap; }
 .source-note { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--vp-c-divider); color: #6a7890; font-size: 13px; }
@@ -85,5 +120,5 @@ body { background: var(--vp-c-bg); }
 .wb-screen-note { margin: 16px 0 22px; padding: 13px 16px; border-left: 4px solid #1769ff; border-radius: 0 12px 12px 0; background: #f2f7ff; color: #526a8d; font-size: 14px; line-height: 1.75; }
 .wb-two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 @media (max-width: 1100px) { .wb-hero { gap: 28px; } .wb-hero h1 { font-size: clamp(40px, 5vw, 64px); } }
-@media (max-width: 900px) { .wb-hero { grid-template-columns: 1fr; gap: 12px; padding-top: 28px; } .wb-hero h1 { max-width: none; font-size: clamp(40px, 8vw, 64px); } .wb-orbit { min-height: 270px; } .wb-orbit::before { width: 210px; height: 210px; } .wb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-path { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 600px) { .wb-home { padding: 22px 18px 58px; } .wb-hero h1 { font-size: clamp(38px, 11vw, 52px); letter-spacing: -.06em; } .wb-title-line { white-space: normal; } .wb-hero p { font-size: 16px; } .wb-grid, .wb-two-col { grid-template-columns: 1fr; } .wb-section-heading { display: block; } .wb-section-heading p { margin-top: 8px; } .wb-path { grid-template-columns: 1fr; } .wb-checklist { grid-template-columns: 1fr; } .navbar .site-name::after { display: none; } }
+@media (max-width: 900px) { .wb-hero { grid-template-columns: 1fr; gap: 12px; padding-top: 28px; } .wb-hero h1 { max-width: none; font-size: clamp(40px, 8vw, 64px); } .wb-orbit { min-height: 270px; } .wb-orbit::before { width: 210px; height: 210px; } .wb-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-path, .wb-path-three { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-stage-grid-advanced { grid-template-columns: repeat(2, minmax(0, 1fr)); } .wb-scenario-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .wb-home { padding: 22px 18px 58px; } .wb-hero h1 { font-size: clamp(38px, 11vw, 52px); letter-spacing: -.06em; } .wb-title-line { white-space: normal; } .wb-hero p { font-size: 16px; } .wb-grid, .wb-two-col, .wb-home-visual-grid, .wb-beginner-rules, .wb-mode-legend, .wb-stage-grid, .wb-stage-grid-advanced, .wb-scenario-grid { grid-template-columns: 1fr; } .wb-section-heading { display: block; } .wb-section-heading p { margin-top: 8px; } .wb-path, .wb-path-three { grid-template-columns: 1fr; } .wb-checklist { grid-template-columns: 1fr; } .navbar .site-name::after { display: none; } }

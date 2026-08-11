@@ -1,72 +1,76 @@
 ---
-title: 学习路线
-description: 从安装 WorkBuddy 到构建可复用 AI 工作流的四阶段中文学习路线。
+title: 三段式学习路线
+description: 给 WorkBuddy 小白的三段式学习路线：先认识工具，再练基本场景，最后进入自动化、Skill、MCP、API 与产品化。
 sourceStatus: official
 permalink: /guide/
-verifiedAt: 2026-08-10
+verifiedAt: 2026-08-11
 officialLinks:
-  - https://copilot.tencent.com/work/
+  - https://www.workbuddy.cn/work/
   - https://cloud.tencent.com.cn/product/workbuddy
 ---
 
-<div class="evidence-card"><strong>官方资料</strong><span>路线依据 WorkBuddy 官方公开的自然语言理解、自主规划、多模态、本地文件、专家、Skills 与连接器场景组织；路线编排本身由本网站独立维护。</span></div>
+<div class="evidence-card"><strong>给小白的路线</strong><span>不要求一次学会全部按钮。每一段只完成一个小目标，学会后再升级。</span></div>
 
-# 学习路线
+# 三段式学习路线
 
-这不是“把所有按钮点一遍”的产品目录，而是一套用真实任务学会交付的方法。每个阶段都要留下一个可以复用的结果：一份任务记录、一份模板、一个 Skill 或一条经过人工确认的工作流。
+你可以把 WorkBuddy 想成一个会做事的工作搭子：先告诉它要完成什么，再给它材料和边界，最后检查它交付的结果。
 
-<figure class="wb-figure"><img src="/images/workbuddy/plan-loop.svg" alt="WorkBuddy 学习路线的六步任务闭环示意图"><figcaption><strong>每页都按这个闭环学习：</strong>先看案例目标，再准备输入，观察计划和执行，验收产物，最后把成功步骤复用起来。</figcaption></figure>
+<figure class="wb-figure wb-stage-figure"><img src="/images/workbuddy/learning-stages.svg" alt="WorkBuddy 三段式学习路线，从认识工具到基本场景再到进阶放大"><figcaption><strong>先走这三段：</strong>认识工具 → 用真实小事练习 → 把重复工作变成自动化、Skill、MCP/API 或产品。</figcaption></figure>
 
-## 先建立一个任务闭环
+## 先记住 4 个动作
 
-WorkBuddy 的价值不在于回答得像人，而在于把目标变成可验收的结果。任何练习都按下面的闭环走：
+<figure class="wb-figure wb-stage-figure"><img src="/images/workbuddy/beginner-click-path.svg" alt="WorkBuddy 小白四步操作路径，从新建任务到检查结果"><figcaption><strong>不懂术语也能开始：</strong>先新建任务，再选择工作方式，接着说清目标，最后检查结果。</figcaption></figure>
 
-1. **定义目标**：写清楚受众、时间范围和不包含什么。
-2. **准备输入**：只提供完成任务需要的文件、链接和背景。
-3. **要求计划**：让它先列步骤、缺口和风险，不要直接生成长文。
-4. **分步执行**：每一步都检查来源、权限和中间产物。
-5. **人工验收**：核对事实、格式、敏感信息和下一步行动。
-6. **沉淀复用**：把成功的指令、输入清单和验收表保存下来。
+<div class="wb-beginner-rules"><div><strong>① 新建</strong><span>一件事一个任务</span></div><div><strong>② 选择</strong><span>日常办公 + Craft 起步</span></div><div><strong>③ 描述</strong><span>目标、材料、格式</span></div><div><strong>④ 检查</strong><span>事实、格式、权限</span></div></div>
 
-## 四阶段路线
+<div class="wb-mode-legend"><div><strong>Ask</strong><span>只讨论，不执行</span></div><div><strong>Plan</strong><span>先列计划，再确认</span></div><div class="is-primary"><strong>Craft</strong><span>目标明确，直接做</span></div></div>
 
-| 阶段 | 你要掌握的能力 | 必做练习 | 通过标准 |
-| --- | --- | --- | --- |
-| 认识 | 安装、进入任务、理解输入/过程/产物 | [安装](/start/install) + [界面](/start/chat) | 能说出任务材料、执行过程和交付物分别在哪里 |
-| 交付 | 指令、文件引用、结果检查 | [第一个任务](/start/first-task) + [产物](/start/outputs) | 能交付一份可复制、可复核的表格或摘要 |
-| 复用 | 提示词结构、Skill、数据工作流 | [提示词](/advanced/prompting) + [Skill](/advanced/skills) | 同一类任务第二次只需替换输入 |
-| 放大 | 专家、MCP/连接器、并行协作 | [专家协作](/advanced/experts) + [MCP](/advanced/mcp) | 能设置确认点，不把高风险动作交给默认执行 |
+## 第 1 段｜认识工具
 
-## 14 天练习安排
+目标：用 20 分钟认识菜单、基本设置和第一条指令。
 
-| 天数 | 任务 | 留下的证据 |
-| --- | --- | --- |
-| 1 | 安装并记录版本、系统和入口 | 截图或文字记录 |
-| 2 | 用会议记录生成三列表格 | 原文、指令、产物、修改点 |
-| 3 | 让 WorkBuddy 先列计划再执行 | 计划与实际差异 |
-| 4 | 用同一份材料做摘要和待办 | 两个交付物的验收表 |
-| 5 | 上传脱敏表格做数据质量检查 | 字段、缺失、重复清单 |
-| 6 | 写一条五段式可执行指令 | 可复制模板 |
-| 7 | 复盘一次失败任务 | 失败分类与下一次改动 |
-| 8 | 创建一个“反馈归类”Skill 草稿 | 输入、步骤、输出、边界 |
-| 9 | 用两个正常样例测试 Skill | 样例输出与人工修改 |
-| 10 | 用缺失输入测试 Skill | 是否会停下来提问 |
-| 11 | 让两个专家分别研究和审校 | 角色分工表 |
-| 12 | 设计一个只读连接器测试 | 权限、数据流、撤销方式 |
-| 13 | 完成一次研究或 PPT 配方 | 计划、素材、交付物 |
-| 14 | 整理自己的工作流说明 | 可复用 SOP |
+<div class="wb-stage-grid"><a class="wb-stage-card" href="/start/install/"><strong>01</strong><h3>安装与版本</h3><p>确认系统、下载入口和账号准备。</p><span>先完成：能打开 WorkBuddy →</span></a><a class="wb-stage-card" href="/start/chat/"><strong>02</strong><h3>看懂桌面</h3><p>知道左侧任务、中间输入、右侧产物分别做什么。</p><span>先完成：能找到新建任务 →</span></a><a class="wb-stage-card" href="/start/first-task/"><strong>03</strong><h3>跑通第一件小事</h3><p>用一段会议记录生成行动清单。</p><span>先完成：拿到可复制表格 →</span></a></div>
 
-## 学完的验收标准
+<div class="wb-callout"><strong>这一段不要学太多：</strong>先会“新建任务—写目标—看结果”。专家、Skill、MCP 都先放一放。</div>
 
-<ul class="wb-checklist">
-  <li>能把模糊需求改成目标、输入、限制、格式和验收。</li>
-  <li>能解释每个文件、工具和连接的权限边界。</li>
-  <li>能从中间过程定位结果为什么不可靠。</li>
-  <li>能把一次成功任务改写成可测试的模板或 Skill。</li>
-  <li>能区分官方资料、本机实测与通用方法。</li>
-  <li>能在发送、写入、发布和产生费用前设置人工确认。</li>
-</ul>
+## 第 2 段｜基本场景
 
-<div class="wb-callout"><strong>学习原则：</strong>先用低风险、可回滚的公开材料练习；等你能稳定验收文本和表格，再连接真实工作空间。</div>
+目标：拿自己的低风险小事练习，每天只做一个场景。
 
-<div class="source-note">官方参考：<a href="https://copilot.tencent.com/work/">WorkBuddy 官方产品页</a>、<a href="https://cloud.tencent.com.cn/product/workbuddy">腾讯云 WorkBuddy 产品说明</a>。本路线不是腾讯官方课程。</div>
+<figure class="wb-figure wb-stage-figure"><img src="/images/workbuddy/scenario-map.svg" alt="WorkBuddy 基本场景选择图，包含工作、学习、生活、娱乐、创意、设计和生产力"><figcaption><strong>选场景，不选术语：</strong>先说你想完成什么，再决定是否需要文件、专家或技能。</figcaption></figure>
+
+<div class="wb-scenario-grid"><a href="/recipes/meeting/"><strong>工作</strong><span>会议、周报、邮件</span></a><a href="/recipes/research/"><strong>学习</strong><span>资料、读书、笔记</span></a><a href="/start/files/"><strong>生活</strong><span>计划、清单、比较</span></a><a href="/recipes/content/"><strong>娱乐</strong><span>旅行、内容、推荐</span></a><a href="/recipes/content/"><strong>创意</strong><span>选题、文案、脚本</span></a><a href="/recipes/ppt/"><strong>设计</strong><span>PPT、海报、版式</span></a><a href="/recipes/data-analysis/"><strong>生产力</strong><span>表格、批处理、复盘</span></a></div>
+
+<div class="wb-example"><strong>万能小白指令：</strong><br><code>目标：___。输入：只使用我提供的___。输出：请做成___。如果缺少信息，先列出待确认问题，不要猜。</code></div>
+
+<div class="wb-callout"><strong>这一段的升级信号：</strong>同一类任务第二次可以复用上一次指令，只需要换文件、对象或日期。</div>
+
+## 第 3 段｜进阶放大
+
+目标：把重复动作变成可复用能力，再考虑连接外部工具和产品化。
+
+<figure class="wb-figure wb-stage-figure"><img src="/images/workbuddy/advanced-ladder.svg" alt="WorkBuddy 进阶能力升级阶梯，从重复工作到自动化、Skill、MCP API 和产品上线"><figcaption><strong>升级顺序：</strong>重复工作 → 自动化 → Skill → MCP/API → 产品。每一级先用测试材料验证，再扩大权限和范围。</figcaption></figure>
+
+<div class="wb-stage-grid wb-stage-grid-advanced"><a class="wb-stage-card" href="/advanced/workflows/"><strong>01</strong><h3>自动化</h3><p>把固定步骤、定时触发和批量处理写成流程。</p><span>先做：只处理测试文件 →</span></a><a class="wb-stage-card" href="/advanced/skills/"><strong>02</strong><h3>Skill</h3><p>把一次成功的方法沉淀成输入、步骤、输出和失败处理。</p><span>先做：测试正常/边界/缺失 →</span></a><a class="wb-stage-card" href="/advanced/mcp/"><strong>03</strong><h3>MCP / API</h3><p>先只读连接外部数据，再考虑小范围写入。</p><span>先做：确认权限和日志 →</span></a><a class="wb-stage-card" href="/advanced/workflows/"><strong>04</strong><h3>产品化</h3><p>把稳定工作流做成可试用、可反馈、可维护的服务。</p><span>先做：一个明确用户问题 →</span></a></div>
+
+<div class="wb-screen-note"><strong>安全顺序：</strong>只读查询 → 测试文件 → 小范围写入 → 人工复核 → 再考虑上线和收费。不要跳过权限、日志和回滚。</div>
+
+## 什么时候可以进入下一段？
+
+| 你现在能做到什么 | 进入下一段 |
+| --- | --- |
+| 能打开软件、找到新建任务、完成一次表格或摘要 | 从第 1 段进入第 2 段 |
+| 能用同一套指令处理第二份材料，并知道如何检查结果 | 从第 2 段进入第 3 段 |
+| 能写清输入、步骤、输出、权限和失败处理 | 开始自动化、Skill 或 MCP/API |
+
+<details><summary>想系统练习？打开 14 天清单</summary>
+
+1. 第 1—2 天：安装、认识菜单、完成会议清单。
+2. 第 3—6 天：各做一个工作、学习、生活、创意场景。
+3. 第 7—9 天：复盘失败任务，写一个反馈归类 Skill 草稿。
+4. 第 10—12 天：用两个专家和一个只读连接器做测试。
+5. 第 13—14 天：把成功步骤整理成自己的 SOP。
+
+</details>
+
+<div class="source-note">官方参考：<a href="https://www.workbuddy.cn/work/">WorkBuddy 官方产品页</a>、<a href="https://cloud.tencent.com.cn/product/workbuddy">腾讯云 WorkBuddy 产品说明</a>。模式选择的通俗解释参考<a href="https://www.xmsumi.com/detail/3073">公开二手教程</a>，本页内容为独立重写，不代表腾讯官方课程。</div>

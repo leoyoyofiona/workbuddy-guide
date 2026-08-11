@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">WorkBuddy 三段式学习路线</title>
+  <desc id="desc">从认识工具，到完成基本场景，再到自动化和产品化的三段学习路线。</desc>
+  <rect width="1200" height="440" rx="28" fill="#f7faff"/>
+  <text x="56" y="62" font-family="Arial,'PingFang SC',sans-serif" font-size="27" font-weight="700" fill="#14213d">不用先学术语，沿着三段路走</text>
+  <text x="56" y="94" font-family="Arial,'PingFang SC',sans-serif" font-size="16" fill="#5f6f89">先会用 → 再用熟 → 最后把重复工作变成自己的系统</text>
+  <g font-family="Arial,'PingFang SC',sans-serif">
+    <rect x="56" y="138" width="318" height="210" rx="22" fill="#fff" stroke="#cfe0ff" stroke-width="3"/>
+    <circle cx="98" cy="184" r="24" fill="#1769ff"/><text x="98" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">1</text>
+    <text x="138" y="190" font-size="24" font-weight="700" fill="#1769ff">认识工具</text>
+    <text x="84" y="238" font-size="16" fill="#244572">菜单 · 设置 · 第一条指令</text>
+    <text x="84" y="270" font-size="15" fill="#5f6f89">你只需要会：新建任务、</text><text x="84" y="296" font-size="15" fill="#5f6f89">选模式、看结果、停下来确认</text>
+    <rect x="84" y="314" width="156" height="24" rx="12" fill="#e8f1ff"/><text x="162" y="331" text-anchor="middle" font-size="13" font-weight="700" fill="#1769ff">今天就能完成</text>
+    <rect x="442" y="138" width="318" height="210" rx="22" fill="#eaf2ff" stroke="#8fb5ff" stroke-width="3"/>
+    <circle cx="484" cy="184" r="24" fill="#1769ff"/><text x="484" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">2</text>
+    <text x="524" y="190" font-size="24" font-weight="700" fill="#1769ff">基本场景</text>
+    <text x="470" y="238" font-size="16" fill="#244572">工作 · 学习 · 生活 · 创意</text>
+    <text x="470" y="270" font-size="15" fill="#5f6f89">每次只练一个小任务：会议、</text><text x="470" y="296" font-size="15" fill="#5f6f89">资料、表格、文章或设计草稿</text>
+    <rect x="470" y="314" width="156" height="24" rx="12" fill="#fff"/><text x="548" y="331" text-anchor="middle" font-size="13" font-weight="700" fill="#1769ff">一周形成习惯</text>
+    <rect x="826" y="138" width="318" height="210" rx="22" fill="#fff" stroke="#cfe0ff" stroke-width="3"/>
+    <circle cx="868" cy="184" r="24" fill="#1769ff"/><text x="868" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">3</text>
+    <text x="908" y="190" font-size="24" font-weight="700" fill="#1769ff">进阶放大</text>
+    <text x="854" y="238" font-size="16" fill="#244572">自动化 · Skill · MCP · API</text>
+    <text x="854" y="270" font-size="15" fill="#5f6f89">先只读测试，再做小范围复用，</text><text x="854" y="296" font-size="15" fill="#5f6f89">最后考虑产品化和上线</text>
+    <rect x="854" y="314" width="156" height="24" rx="12" fill="#e8f1ff"/><text x="932" y="331" text-anchor="middle" font-size="13" font-weight="700" fill="#1769ff">把经验变资产</text>
+  </g>
+  <g stroke="#1769ff" stroke-width="4" fill="none"><path d="M374 243H430" marker-end="url(#arrow)"/><path d="M760 243H814" marker-end="url(#arrow)"/></g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#1769ff"/></marker></defs>
+</svg>

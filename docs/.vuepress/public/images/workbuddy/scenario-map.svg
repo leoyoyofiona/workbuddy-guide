@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">WorkBuddy 基本场景选择图</title>
+  <desc id="desc">以我想完成什么为中心，连接工作、学习、生活、娱乐、创意、设计和生产力七类场景。</desc>
+  <rect width="1200" height="560" rx="28" fill="#f7faff"/>
+  <text x="56" y="60" font-family="Arial,'PingFang SC',sans-serif" font-size="27" font-weight="700" fill="#14213d">不知道点什么？先回答：我想完成什么</text>
+  <text x="56" y="94" font-family="Arial,'PingFang SC',sans-serif" font-size="16" fill="#5f6f89">先选场景，再选模式；不要一上来背所有功能名</text>
+  <g stroke="#b9d1ff" stroke-width="3" fill="none">
+    <path d="M600 300L220 172"/><path d="M600 300L455 160"/><path d="M600 300L745 160"/><path d="M600 300L980 172"/>
+    <path d="M600 300L220 430"/><path d="M600 300L455 450"/><path d="M600 300L745 450"/>
+  </g>
+  <g font-family="Arial,'PingFang SC',sans-serif" text-anchor="middle">
+    <circle cx="600" cy="300" r="104" fill="#1769ff"/><text x="600" y="288" font-size="24" font-weight="700" fill="#fff">我想完成</text><text x="600" y="322" font-size="24" font-weight="700" fill="#fff">什么？</text><text x="600" y="352" font-size="14" fill="#eaf2ff">目标 + 输入 + 结果</text>
+    <g><rect x="84" y="118" width="270" height="92" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="219" y="156" font-size="22" font-weight="700" fill="#1769ff">工作</text><text x="219" y="184" font-size="15" fill="#5f6f89">周报、会议、数据</text></g>
+    <g><rect x="320" y="106" width="270" height="92" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="455" y="144" font-size="22" font-weight="700" fill="#1769ff">学习</text><text x="455" y="172" font-size="15" fill="#5f6f89">读书、笔记、复习</text></g>
+    <g><rect x="610" y="106" width="270" height="92" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="745" y="144" font-size="22" font-weight="700" fill="#1769ff">生活</text><text x="745" y="172" font-size="15" fill="#5f6f89">计划、清单、比较</text></g>
+    <g><rect x="846" y="118" width="270" height="92" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="981" y="156" font-size="22" font-weight="700" fill="#1769ff">娱乐</text><text x="981" y="184" font-size="15" fill="#5f6f89">旅行、游戏、推荐</text></g>
+    <g><rect x="84" y="384" width="270" height="92" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="219" y="422" font-size="22" font-weight="700" fill="#1769ff">创意</text><text x="219" y="450" font-size="15" fill="#5f6f89">选题、文案、脚本</text></g>
+    <g><rect x="320" y="396" width="270" height="92" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="455" y="434" font-size="22" font-weight="700" fill="#1769ff">设计</text><text x="455" y="462" font-size="15" fill="#5f6f89">海报、PPT、版式</text></g>
+    <g><rect x="610" y="396" width="270" height="92" rx="18" fill="#fff" stroke="#cfe0ff" stroke-width="3"/><text x="745" y="434" font-size="22" font-weight="700" fill="#1769ff">生产力</text><text x="745" y="462" font-size="15" fill="#5f6f89">批处理、自动化、复用</text></g>
+  </g>
+</svg>
