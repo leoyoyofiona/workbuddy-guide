@@ -86,7 +86,7 @@ module.exports = defineUserConfig({
     navbarLayout: {
       start: ['Brand'],
       center: ['Links'],
-      end: ['Repo', 'Outlook', 'Search']
+      end: ['LeoPortfolio', 'Repo', 'Outlook', 'Search']
     },
     print: false,
     pageInfo: ['ReadingTime'],
