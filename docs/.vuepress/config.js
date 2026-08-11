@@ -142,6 +142,7 @@ module.exports = defineUserConfig({
     footer: 'WorkBuddy Guide · 独立维护 · 与腾讯及 WorkBuddy 官方无隶属或授权关系',
     copyright: false,
     displayFooter: true,
+    darkmode: 'toggle',
     pure: false,
     plugins: { search: { maxSuggestions: 8 } }
   }),
