@@ -1,13 +1,13 @@
 lastReviewed: 2026-08-11
 policy: 仅链接或嵌入原平台播放器，不下载、不重新托管第三方视频；视频版本、界面和可访问性可能变化，教程结论仍以官方资料和当前客户端为准。
 videos:
-  - id: tencent-install
-    title: 保姆级 WorkBuddy 安装教程
-    platform: 腾讯云开发者社区
-    url: https://developer.cloud.tencent.com/video/85298
-    status: public
-    scope: 第1段安装与第一次打开
-    limitation: 腾讯云开发者社区公开视频；页面内容和客户端版本可能变化。
+  - id: bilibili-install
+    title: 如何安装 WorkBuddy、认识功能并通过微信下命令
+    platform: 哔哩哔哩
+    url: https://www.bilibili.com/video/BV1J1Poz9EWA/
+    status: public-third-party
+    scope: 第1段安装、基本功能与微信远程命令
+    limitation: 第三方作者视频；本指南嵌入原播放器，不下载或再发布视频内容。
   - id: bilibili-full
     title: 全网最全！35分钟全面掌握 WorkBuddy
     platform: 哔哩哔哩

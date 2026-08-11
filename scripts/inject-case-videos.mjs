@@ -4,7 +4,7 @@ import path from 'node:path'
 const root = path.resolve('docs/cases')
 
 const videos = {
-  'tencent-install': ['腾讯云开发者社区 · 保姆级安装教程', 'https://developer.cloud.tencent.com/video/85298'],
+  'bilibili-install': ['哔哩哔哩 · 安装、基本功能与微信远程命令', 'https://www.bilibili.com/video/BV1J1Poz9EWA/'],
   'bilibili-full': ['哔哩哔哩 · 35 分钟全面掌握 WorkBuddy', 'https://www.bilibili.com/video/BV1j1JP6oEHA/'],
   'bilibili-meeting': ['哔哩哔哩 · WorkBuddy 整理会议纪要', 'https://www.bilibili.com/video/BV1NJLT6qEgD/'],
   'bilibili-ppt': ['哔哩哔哩 · WorkBuddy 生成 PPT', 'https://www.bilibili.com/video/BV1UmEd6pES8'],
@@ -20,7 +20,7 @@ const videos = {
 }
 
 const assignment = {
-  1: ['tencent-install', 'bilibili-full', 'bilibili-meeting', 'bilibili-full', 'bilibili-skill-plugin', 'bilibili-full', 'bilibili-full', 'bilibili-ppt', 'bilibili-full', 'bilibili-full'],
+  1: ['bilibili-install', 'bilibili-full', 'bilibili-meeting', 'bilibili-full', 'bilibili-skill-plugin', 'bilibili-full', 'bilibili-full', 'bilibili-ppt', 'bilibili-full', 'bilibili-full'],
   2: ['bilibili-full', 'bilibili-data-meeting', 'bilibili-full', 'bilibili-full', 'bilibili-ppt-edit', 'bilibili-ppt', 'bilibili-excel', 'bilibili-full', 'bilibili-meeting', 'bilibili-data-meeting'],
   3: ['bilibili-automation', 'bilibili-skill-plugin', 'bilibili-skill-case', 'bilibili-project', 'bilibili-agent', 'bilibili-data-meeting', 'bilibili-automation', 'bilibili-agent', 'bilibili-full', 'bilibili-browser'],
 }
@@ -29,13 +29,22 @@ function escapeHtml(value) {
   return value.replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]))
 }
 
+function embedUrl(url) {
+  const bvid = url.match(/BV[\w]+/i)?.[0]
+  if (bvid) return `https://player.bilibili.com/player.html?bvid=${bvid}&amp;page=1&amp;high_quality=1&amp;danmaku=0`
+  return url
+}
+
+function renderVideoPlayer(label, url) {
+  const provider = url.includes('bilibili.com') ? '哔哩哔哩原播放器' : '原平台播放器'
+  return `
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：${escapeHtml(label)}</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="${embedUrl(url)}" title="${escapeHtml(label)}" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>${provider}：</strong>视频由原作者托管。<a href="${url}" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
+`
+}
+
 for (const stage of [1, 2, 3]) {
   const file = path.join(root, `stage-${stage}.md`)
   let raw = fs.readFileSync(file, 'utf8')
-  if (raw.includes('class="wb-case-video"')) {
-    console.log(`skip ${file}: case videos already injected`)
-    continue
-  }
   const sections = raw.split(/(?=^## 案例 \d{2}｜)/m)
   const transformed = sections.map((section, index) => {
     if (index === 0) return section
@@ -44,8 +53,9 @@ for (const stage of [1, 2, 3]) {
     const number = Number(match[1])
     const id = assignment[stage][number - 1]
     const [label, url] = videos[id]
-    const card = `\n<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>${escapeHtml(label)}</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="${url}" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>\n`
-    return section.replace('<ol class="wb-case-steps">', `${card}\n<ol class="wb-case-steps">`)
+    const player = renderVideoPlayer(label, url)
+    const withoutOldPlayers = section.replace(/\s*(?:<div class="wb-video-card wb-case-video">[\s\S]*?<\/div>|<figure class="wb-video-embed wb-case-video">[\s\S]*?<\/figure>)\s*/g, '\n\n')
+    return withoutOldPlayers.replace('<ol class="wb-case-steps">', `${player}\n<ol class="wb-case-steps">`)
   })
   fs.writeFileSync(file, transformed.join(''))
   console.log(`injected 10 video links into ${file}`)

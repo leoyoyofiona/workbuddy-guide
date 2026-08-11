@@ -25,7 +25,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-01.svg" alt="把每周周报拆成自动化流程的四步示意图"><figcaption>原创教学图：固定输入、步骤、输出，再加一个人工检查点。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · 第一次设置 WorkBuddy 自动化任务</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1PgdPBtEqr" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · 第一次设置 WorkBuddy 自动化任务</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1PgdPBtEqr&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · 第一次设置 WorkBuddy 自动化任务" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1PgdPBtEqr" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>固定输入：</strong>规定只接收脱敏日报、进度表和阻塞清单。</li><li><strong>固定步骤：</strong>按“合并事实 → 找风险 → 写明日计划”执行。</li><li><strong>固定输出：</strong>统一成一页周报，包含依据和待确认项。</li><li><strong>设检查点：</strong>发布前由负责人检查数字和敏感信息。</li></ol>
 
@@ -38,7 +40,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-02.svg" alt="设计反馈分类 Skill 的四步示意图"><figcaption>原创教学图：输入、规则、示例、测试四件事缺一不可。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · WorkBuddy 的技能与插件</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1xpXUBjEoU/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · WorkBuddy 的技能与插件</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1xpXUBjEoU&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · WorkBuddy 的技能与插件" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1xpXUBjEoU/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>写输入格式：</strong>规定每次输入是一条脱敏反馈。</li><li><strong>写分类规则：</strong>给“功能、价格、速度、困难、其他”各写一句判断标准。</li><li><strong>加示例：</strong>放 3 条已人工判断的正例和 1 条边界例。</li><li><strong>用新样本测试：</strong>记录误分，不要直接相信第一次结果。</li></ol>
 
@@ -51,7 +55,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-03.svg" alt="设计会议转行动清单 Skill 的四步示意图"><figcaption>原创教学图：先定义字段，再测试是否漏掉未决定事项。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · 给 WorkBuddy 添加一个 Skill</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1ngdnBaEDD/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · 给 WorkBuddy 添加一个 Skill</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1ngdnBaEDD&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · 给 WorkBuddy 添加一个 Skill" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1ngdnBaEDD/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>定义会议文本：</strong>输入只放允许处理的脱敏记录。</li><li><strong>提取四类字段：</strong>明确“没有写明就填待确认”。</li><li><strong>规定表格格式：</strong>每行一个行动，附原文依据。</li><li><strong>复核遗漏：</strong>用一段有争论的会议记录测试它会不会误判为决定。</li></ol>
 
@@ -64,7 +70,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-04.svg" alt="在 WorkBuddy 中用 MCP 做只读查询的四步示意图"><figcaption>原创教学图：先确认来源和权限，再做一条只读查询。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · TAPD + WorkBuddy 项目助理</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1wA97BXE6y/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · TAPD + WorkBuddy 项目助理</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1wA97BXE6y&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · TAPD + WorkBuddy 项目助理" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1wA97BXE6y/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>确认连接来源：</strong>看清这个连接能访问什么数据、由谁维护。</li><li><strong>先读说明：</strong>确认它是只读还是包含写入动作。</li><li><strong>做一条查询：</strong>只问“某个日期的数量”，不要一开始批量导出。</li><li><strong>核对权限：</strong>检查返回内容有没有超出你本来能看到的范围。</li></ol>
 
@@ -77,7 +85,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-05.svg" alt="用占位接口设计输入输出的四步示意图"><figcaption>原创教学图：先用假地址和假数据画清楚，不要把密钥放进提示词。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · 10 分钟玩转 WorkBuddy AI 智能体</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1hMEj62EdT/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · 10 分钟玩转 WorkBuddy AI 智能体</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1hMEj62EdT&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · 10 分钟玩转 WorkBuddy AI 智能体" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1hMEj62EdT/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>写输入 JSON：</strong>例如 <code>{"date":"2026-08-11"}</code>。</li><li><strong>写输出 JSON：</strong>规定返回字段、类型和空值写法。</li><li><strong>用占位地址：</strong>先用 <code>https://example.invalid/read-only</code> 画流程。</li><li><strong>本地测试：</strong>确认输入输出后，再向管理员询问真实授权方式。</li></ol>
 
@@ -90,7 +100,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-06.svg" alt="让多个 WorkBuddy 专家分工协作的四步示意图"><figcaption>原创教学图：角色越清楚，合并时越少互相覆盖。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · 数据分析与会议纪要实测</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1DK7K65Ex2" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · 数据分析与会议纪要实测</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1DK7K65Ex2&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · 数据分析与会议纪要实测" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1DK7K65Ex2" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>拆成三角色：</strong>研究员找来源，分析员做表格，编辑负责白话表达。</li><li><strong>给共同资料：</strong>三人只看同一份脱敏资料和任务目标。</li><li><strong>分别交付：</strong>每个角色输出自己的结论和不确定项。</li><li><strong>合并复核：</strong>由你检查来源、数字和结论是否一致。</li></ol>
 
@@ -103,7 +115,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-07.svg" alt="批量整理文件并先小样本测试的四步示意图"><figcaption>原创教学图：统一命名，先试两个，检查后再批量。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · 第一次设置 WorkBuddy 自动化任务</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1PgdPBtEqr" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · 第一次设置 WorkBuddy 自动化任务</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1PgdPBtEqr&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · 第一次设置 WorkBuddy 自动化任务" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1PgdPBtEqr" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>统一命名规则：</strong>写清日期、项目和版本的顺序。</li><li><strong>先试 2 个：</strong>选择两个不敏感、差异明显的练习文件。</li><li><strong>检查结果：</strong>确认没有改内容、丢附件或覆盖原文件。</li><li><strong>再批量执行：</strong>保留原文件和可撤回的输出目录。</li></ol>
 
@@ -116,7 +130,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-08.svg" alt="从一个痛点做最小 AI 小产品的四步示意图"><figcaption>原创教学图：一个输入、一个输出，先让别人能用起来。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · 10 分钟玩转 WorkBuddy AI 智能体</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1hMEj62EdT/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · 10 分钟玩转 WorkBuddy AI 智能体</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1hMEj62EdT&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · 10 分钟玩转 WorkBuddy AI 智能体" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1hMEj62EdT/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>选一个痛点：</strong>例如“每周把客服反馈分成五类”。</li><li><strong>定义一个输入：</strong>一份脱敏 CSV 或一段文本。</li><li><strong>定义一个输出：</strong>分类表＋三条待处理建议。</li><li><strong>做最小演示：</strong>先让 1～3 个熟悉的人试用并记录卡点。</li></ol>
 
@@ -129,7 +145,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-09.svg" alt="邀请三位用户试用并记录反馈的四步示意图"><figcaption>原创教学图：同一任务、同一说明，才能比较三个人的体验。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · 35 分钟全面掌握 WorkBuddy</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1j1JP6oEHA/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · 35 分钟全面掌握 WorkBuddy</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1j1JP6oEHA&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · 35 分钟全面掌握 WorkBuddy" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1j1JP6oEHA/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>准备同一任务：</strong>给每个人同一份脱敏材料和同一句说明。</li><li><strong>记录卡点：</strong>只记“找不到入口、不会输入、看不懂结果”等事实。</li><li><strong>收集一句反馈：</strong>问“哪一步最费劲，为什么”。</li><li><strong>只改最大问题：</strong>改完再找下一批人试，不要同时改十处。</li></ol>
 
@@ -142,7 +160,9 @@ permalink: /cases/stage-3/
 <figure class="wb-figure wb-case-figure"><img src="/images/workbuddy/cases/stage-3-10.svg" alt="小产品上线前检查隐私日志和回滚的四步示意图"><figcaption>原创教学图：先删敏感资料，再留记录，最后准备撤回方案。</figcaption></figure>
 
 
-<div class="wb-video-card wb-case-video"><span class="wb-video-badge">真实桌面端跟练视频</span><h3>哔哩哔哩 · WorkBuddy 浏览器自动化任务</h3><p>先看这一条，再回到本案例照做；这是原作者托管的第三方录屏，版本和入口以原视频与当前客户端为准。</p><a href="https://www.bilibili.com/video/BV1f2jH6ME1g/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></div>
+
+
+<figure class="wb-video-embed wb-case-video"><h3>跟练视频：哔哩哔哩 · WorkBuddy 浏览器自动化任务</h3><p>点播放器直接观看；先看一次，再回到下面的步骤照做。版本和入口以原视频与当前客户端为准。</p><iframe src="https://player.bilibili.com/player.html?bvid=BV1f2jH6ME1g&amp;page=1&amp;high_quality=1&amp;danmaku=0" title="哔哩哔哩 · WorkBuddy 浏览器自动化任务" loading="lazy" scrolling="no" frameborder="0" allowfullscreen="true"></iframe><figcaption><strong>哔哩哔哩原播放器：</strong>视频由原作者托管。<a href="https://www.bilibili.com/video/BV1f2jH6ME1g/" target="_blank" rel="noopener noreferrer">打开原视频 ↗</a></figcaption></figure>
 
 <ol class="wb-case-steps"><li><strong>删掉敏感资料：</strong>检查提示词、样例、截图和日志里有没有个人信息。</li><li><strong>保留运行记录：</strong>记录版本、输入类型、输出状态和人工修改。</li><li><strong>准备撤回方案：</strong>知道怎样停用连接、删除输出、恢复旧版本。</li><li><strong>再公开入口：</strong>写清用途、限制、反馈方式，不承诺未经验证的价格或收益。</li></ol>
 
